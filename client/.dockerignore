@@ -1,0 +1,3 @@
+# Files that will be ignored from docker image
+node_modules
+buil
