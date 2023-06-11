@@ -39,7 +39,7 @@ module.exports = {
         lightblue: '#A5D7E8',
         dullblue: '#5599AF',
         grey: '#928E8E'
-      },
+      }
     },
     plugins: [],
   }
