@@ -1,18 +1,16 @@
 import React from 'react'
-import { Logo } from '../assets'
+import { Logo } from '../components'
 
-export default function PageFallback(){
+export default function PageFallback(props){
     return (
         <div className="bg-darkblue h-screen bg-img">
-            <div className='h-28'>
-                <img className='h-full mx-5 p-1 -rotate-[77.15deg]' src={Logo} alt='Piyush' />
-            </div>
+        <Logo />    
 
             <div className='h-4/5'>
                 <h2 className='align-middle text-bold text-lightblue text-center text-5xl'>
                     Uh Oh! 
                     <br />
-                    Some Error Occurred
+                    {props.tag === "page" ? "Page Not Found" : "Some Error Occurred"}
                     <br />
                     :(
                 </h2>

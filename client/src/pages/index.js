@@ -1,0 +1,6 @@
+export { default as Home } from './home'
+export { default as Project } from './projects'
+export { default as About } from './about'
+export { default as Experience } from './experience'
+export { default as Blog } from './blog'
+export { default as Resume } from './resume'
