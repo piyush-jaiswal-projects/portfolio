@@ -1,11 +1,11 @@
 import Navbar from "./navbar";
+import { HeroTemplate, HomeHero } from "../components";
 
-function Landing(props) {
+function Landing() {
     return (
-        <div className= "bg-[url('./assets/denim.png')]">
-            {/* background in div */}
+        <div className= "bg-[url('./assets/denim.png')] mix-blend-color-dodge">
             <Navbar />
-            {props.children}
+            {window.location.pathname === "/" ? <HomeHero /> : <HeroTemplate type="page"/>}
         </div>
     )
 }

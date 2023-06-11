@@ -1,13 +1,12 @@
 import { Logo, NavLink } from "../components";
-
-const arr = ["HOME", "PROJECTS", "ABOUT", "BLOG", "EXPERIENCE", "RESUME"]
+import { navLink } from "../data";
 
 function Navbar(props) {
     return (
         <div className="flex justify-between">
             <Logo />
             <div className="inline-flex items-center">
-            {arr.map((link) => {
+            {navLink.map((link) => {
                 return <NavLink name={link} key={link + "key"} />
             })}
             </div>
