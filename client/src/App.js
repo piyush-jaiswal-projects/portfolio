@@ -2,7 +2,7 @@ import { Home, Project, About, Experience, Blog, Resume } from "./pages";
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import ErrorBoundary from './ErrorHandler/error-boundary'
 import PageFallback from "./ErrorHandler/page-fallback";
-import { Navbar } from "./section";
+import { Navbar, Footer } from "./section";
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
           <Route path="*" element={<ErrorBoundary><PageFallback tag="page"/></ErrorBoundary>} />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 }

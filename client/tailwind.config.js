@@ -14,7 +14,7 @@ module.exports = {
       transparent: 'transparent',
       darkblue: '#0B2447',
       darkblueTwo: '#0F3262',
-      darkblue3: '',
+      darkblueThree: '#082D61',
       white: '#D9D9D9',
       lightblue: '#A5D7E8',
       dullblue: '#5599AF',
