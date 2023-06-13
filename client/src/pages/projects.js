@@ -1,11 +1,11 @@
-import {Landing} from '../section'
+import {Landing, Connect, ProjectGrid} from '../section'
 
 function Project() {
     return (
         <>
-        <Landing>
-            {/* Specific Child */}
-       </Landing>     
+            <Landing />
+            <ProjectGrid />
+            <Connect />
     </>
     );
 }

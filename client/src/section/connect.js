@@ -1,6 +1,6 @@
 import { Heading, CircularLink } from "../components"
-import { git, linkedin, mail, twitter } from "../assets"
-import { developerMailId, Github, Linkedin, Twitter } from "../data";
+import { git, linkedin, mail, twitter, leetcode } from "../assets"
+import { developerMailId, Github, Linkedin, Twitter, Leetcode } from "../data";
 
 export default function Connect(props) {
 
@@ -15,6 +15,7 @@ export default function Connect(props) {
                 <CircularLink name="Linkedin" link={Linkedin} image={linkedin} theme="dark" />
                 <CircularLink name="Twitter" link={Twitter} image={twitter} theme="dark" />
                 <CircularLink name="Email" link={MailURL} image={mail} theme="dark" />
+                <CircularLink name="Leetcode" link={Leetcode} image={leetcode} theme="dark" />
             </div>
         </div>
     )

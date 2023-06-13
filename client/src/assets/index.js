@@ -15,4 +15,5 @@ export { default as Project1 } from './projects/1.jpg';
 export { default as linkedin } from './socials/linkedin.svg';
 export { default as twitter } from './socials/twitter.svg';
 export { default as mail } from './socials/email.svg';
+export { default as leetcode } from './socials/leetcode.svg';
 

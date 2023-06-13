@@ -35,6 +35,7 @@ const developerMailId = "developerpiyush1610@gmail.com";
 const projects = [
     {
         id: 1,
+        tag: "Frontend",
         title: "Video Streaming Web App",
         previewImage: Project1,
         git: "https://github.com/piyush-jaiswal-projects/portfolio",
@@ -47,6 +48,7 @@ const projects = [
     },
     {
         id: 2,
+        tag: "Backend",
         title: "Video Streaming App",
         previewImage: Project1,
         git: "https://github.com/piyush-jaiswal-projects/portfolio",
@@ -59,6 +61,7 @@ const projects = [
     },
     {
         id: 3,
+        tag: "Full Stack",
         title: "Video Streaming App",
         previewImage: Project1,
         git: "https://github.com/piyush-jaiswal-projects/portfolio",
@@ -71,6 +74,7 @@ const projects = [
     },
     {
         id: 4,
+        tag: "Chrome Extension",
         title: "Video Streaming App",
         previewImage: Project1,
         git: "https://github.com/piyush-jaiswal-projects/portfolio",
@@ -83,6 +87,7 @@ const projects = [
     },
     {
         id: 5,
+        tag: "DSA",
         title: "Video Streaming App",
         previewImage: Project1,
         git: "https://github.com/piyush-jaiswal-projects/portfolio",
@@ -100,5 +105,6 @@ const resumeURL = "https://drive.google.com/file/d/1B28Y8dIPNmC43k6lf8JuqLIAIweJ
 const Linkedin = "https://www.linkedin.com/in/piyushjaiswal1610/";
 const Twitter = "https://twitter.com/PiyushJ17317768";
 const Github = "https://github.com/piyush-jaiswal-projects";
+const Leetcode = "https://leetcode.com/piyushjaiswal1610/";
 
-export { navLink, heroText, developerMailId, projects, resumeURL, Linkedin, Twitter, Github };
+export { navLink, heroText, developerMailId, projects, resumeURL, Linkedin, Twitter, Github, Leetcode };

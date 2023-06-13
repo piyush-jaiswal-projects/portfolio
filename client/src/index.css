@@ -8,6 +8,7 @@ body{
 }
 
 .animate-custom-menu{
+    opacity: 1;
     animation: popup 0.1s ease;
 }
 

@@ -13,4 +13,5 @@ export { default as ProjectCard } from './project-card'
 export { default as CircularLink } from './circular-link'
 export { default as Heading } from './heading'
 export { default as TextPara } from './text-para'
+export { default as SmallCard } from './small-card'
 
