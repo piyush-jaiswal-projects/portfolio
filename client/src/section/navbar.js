@@ -7,7 +7,7 @@ import { useWindowWidth } from '../hooks'
 
 function Navbar(props) {
     return (
-        <div className="flex justify-between">
+        <div className="flex justify-between bg-[url('./assets/denim.png')] mix-blend-color-dodge lg:bg-none">
             <Logo />
             {useWindowWidth() >= 768 ? <LargeNavbar /> : <SmallNavbar />}
         </div>

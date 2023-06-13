@@ -10,3 +10,9 @@ export { default as link } from './link.svg';
 
 // PROJECTS PREVIEW IMAGES
 export { default as Project1 } from './projects/1.jpg';
+
+//SOCIAL MEDIA PLATFORM
+export { default as linkedin } from './socials/linkedin.svg';
+export { default as twitter } from './socials/twitter.svg';
+export { default as mail } from './socials/email.svg';
+

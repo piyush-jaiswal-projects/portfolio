@@ -95,4 +95,10 @@ const projects = [
     }
 ]
 
-export { navLink, heroText, developerMailId, projects };
+const resumeURL = "https://drive.google.com/file/d/1B28Y8dIPNmC43k6lf8JuqLIAIweJ6CLH/view?usp=sharing";
+
+const Linkedin = "https://www.linkedin.com/in/piyushjaiswal1610/";
+const Twitter = "https://twitter.com/PiyushJ17317768";
+const Github = "https://github.com/piyush-jaiswal-projects";
+
+export { navLink, heroText, developerMailId, projects, resumeURL, Linkedin, Twitter, Github };

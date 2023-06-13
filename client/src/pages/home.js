@@ -1,4 +1,5 @@
-import {Landing, Projects, AboutMe} from '../section'
+import {Landing, Projects, AboutMe, Connect
+} from '../section'
 
 function Home() {
     return (
@@ -6,6 +7,7 @@ function Home() {
             <Landing /> 
             <Projects />
             <AboutMe />
+            <Connect />
         </>
     );
 }

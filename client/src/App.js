@@ -2,10 +2,12 @@ import { Home, Project, About, Experience, Blog, Resume } from "./pages";
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import ErrorBoundary from './ErrorHandler/error-boundary'
 import PageFallback from "./ErrorHandler/page-fallback";
+import { Navbar } from "./section";
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<ErrorBoundary><Home /></ErrorBoundary>} />
