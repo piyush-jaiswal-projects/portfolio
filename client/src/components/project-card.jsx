@@ -21,7 +21,7 @@ export default function ProjectCard(props) {
                 <div className="flex items-center justify-center mx-auto mb-4">
                     <CircularLink name="Git" image={git} link={project.git} />
                     <CircularLink name="Live Link" image={link} link={project.live} />
-                    <CircularLink name="->" image={rightArrow} link={"/projects/" + project.id} />
+                    <CircularLink name="More ->" image={rightArrow} link={"/projects/" + project.id} />
                 </div>
 
             </div>

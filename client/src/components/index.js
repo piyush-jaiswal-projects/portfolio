@@ -11,3 +11,6 @@ export { default as ButtonTwo } from './button2'
 export { default as PDFviewer } from './pdfViewer'
 export { default as ProjectCard } from './project-card'
 export { default as CircularLink } from './circular-link'
+export { default as Heading } from './heading'
+export { default as TextPara } from './text-para'
+
