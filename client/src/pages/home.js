@@ -1,9 +1,10 @@
-import {Landing} from '../section'
+import {Landing, Projects} from '../section'
 
 function Home() {
     return (
         <>
-            <Landing />   
+            <Landing /> 
+            <Projects />
         </>
     );
 }

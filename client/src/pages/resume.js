@@ -1,13 +1,19 @@
+import { PDFviewer } from '../components';
 import { Landing } from "../section";
+import { ButtonTwo } from "../components";
 
-function Resume() {
+function ResumeViewer() {
+    
     return (
         <>
-        <Landing>
-            {/* Specific Child */}
-       </Landing>     
-    </>
+            <Landing />
+            <div className="flex justify-end m-[20px]">
+                <ButtonTwo text="Download Resume" />
+                <ButtonTwo text="Mail Resume" />
+            </div>    
+            <PDFviewer filePath="Resume.pdf" />
+        </>
     )
 }
 
-export default Resume;
+export default ResumeViewer;

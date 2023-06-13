@@ -1,3 +1,5 @@
+import { Project1 } from "./assets";
+
 const navLink = ["HOME", "PROJECTS", "ABOUT", "BLOG", "EXPERIENCE", "RESUME"];
 
 const heroText = [
@@ -30,4 +32,67 @@ const heroText = [
 
 const developerMailId = "developerpiyush1610@gmail.com";
 
-export { navLink, heroText, developerMailId };
+const projects = [
+    {
+        id: 1,
+        title: "Video Streaming Web App",
+        previewImage: Project1,
+        git: "https://github.com/piyush-jaiswal-projects/portfolio",
+        live: "https://symphonious-praline-82b0d6.netlify.app/",
+        tech: ["HTML", "CSS", "Javascript"],
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt massa eget turpis tincidunt hendrerit. Duis convallis hendrerit porttitor. Etiam finibus consectetur tempor. Suspendisse sed luctus tortor. Proin gravida viverra elit, quis luctus ex gravida non. Etiam id risus ante. Suspendisse eget eros ac velit pretium pharetra.",
+        standard: ["one", "two", "three", "four", "five"],
+        standout: ["one", "two", "three"],
+        achievements: ["one", "two", "three", "four"]
+    },
+    {
+        id: 2,
+        title: "Video Streaming App",
+        previewImage: Project1,
+        git: "https://github.com/piyush-jaiswal-projects/portfolio",
+        live: "https://symphonious-praline-82b0d6.netlify.app/",
+        tech: ["HTML", "CSS", "Javascript"],
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt massa eget turpis tincidunt hendrerit. Duis convallis hendrerit porttitor. Etiam finibus consectetur tempor. Suspendisse sed luctus tortor. Proin gravida viverra elit, quis luctus ex gravida non. Etiam id risus ante. Suspendisse eget eros ac velit pretium pharetra.",
+        standard: ["one", "two", "three", "four", "five"],
+        standout: ["one", "two", "three"],
+        achievements: ["one", "two", "three", "four"]
+    },
+    {
+        id: 3,
+        title: "Video Streaming App",
+        previewImage: Project1,
+        git: "https://github.com/piyush-jaiswal-projects/portfolio",
+        live: "https://symphonious-praline-82b0d6.netlify.app/",
+        tech: ["HTML", "CSS", "Javascript"],
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt massa eget turpis tincidunt hendrerit. Duis convallis hendrerit porttitor. Etiam finibus consectetur tempor. Suspendisse sed luctus tortor. Proin gravida viverra elit, quis luctus ex gravida non. Etiam id risus ante. Suspendisse eget eros ac velit pretium pharetra.",
+        standard: ["one", "two", "three", "four", "five"],
+        standout: ["one", "two", "three"],
+        achievements: ["one", "two", "three", "four"]
+    },
+    {
+        id: 4,
+        title: "Video Streaming App",
+        previewImage: Project1,
+        git: "https://github.com/piyush-jaiswal-projects/portfolio",
+        live: "https://symphonious-praline-82b0d6.netlify.app/",
+        tech: ["HTML", "CSS", "Javascript"],
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt massa eget turpis tincidunt hendrerit. Duis convallis hendrerit porttitor. Etiam finibus consectetur tempor. Suspendisse sed luctus tortor. Proin gravida viverra elit, quis luctus ex gravida non. Etiam id risus ante. Suspendisse eget eros ac velit pretium pharetra.",
+        standard: ["one", "two", "three", "four", "five"],
+        standout: ["one", "two", "three"],
+        achievements: ["one", "two", "three", "four"]
+    },
+    {
+        id: 5,
+        title: "Video Streaming App",
+        previewImage: Project1,
+        git: "https://github.com/piyush-jaiswal-projects/portfolio",
+        live: "https://symphonious-praline-82b0d6.netlify.app/",
+        tech: ["HTML", "CSS", "Javascript"],
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt massa eget turpis tincidunt hendrerit. Duis convallis hendrerit porttitor. Etiam finibus consectetur tempor. Suspendisse sed luctus tortor. Proin gravida viverra elit, quis luctus ex gravida non. Etiam id risus ante. Suspendisse eget eros ac velit pretium pharetra.",
+        standard: ["one", "two", "three", "four", "five"],
+        standout: ["one", "two", "three"],
+        achievements: ["one", "two", "three", "four"]
+    }
+]
+
+export { navLink, heroText, developerMailId, projects };
