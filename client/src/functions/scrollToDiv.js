@@ -1,5 +1,5 @@
 function scrollToDiv(divId) {
-    const div = document.getElementById("contact");
+    const div = document.getElementById(divId);
         if (div) {
             div.scrollIntoView({ behavior: 'smooth' });
         }

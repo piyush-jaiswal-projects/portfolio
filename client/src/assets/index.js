@@ -6,6 +6,8 @@ export { default as close } from './cross.svg';
 export { default as git } from './git.svg';
 export { default as rightArrow } from './arrow-right.svg';
 export { default as link } from './link.svg';
+export { default as ProfilePic } from './pic1.jpg';
+
 
 
 // PROJECTS PREVIEW IMAGES
