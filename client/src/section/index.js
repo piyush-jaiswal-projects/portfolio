@@ -9,4 +9,5 @@ export { default as ProjectBody } from './project-body'
 export { default as FeedbackForm } from './feedback-form'
 export { default as Story } from './story'
 export { default as Introduction } from './introduction'
+export { default as TechCarousel } from './tech-carousel'
 

@@ -21,7 +21,7 @@ export default function Introduction() {
 
             <div className="mx-auto my-[1vw] md:my-[0vw] w-[65vw] h-[70vw] md:h-[50vw] md:w-[35vw] inline-flex items-center flex-wrap">
                 <div className="bg-lightblue w-[65vw] h-[70vw] md:h-[35vw] md:w-[30vw] rounded-md"> 
-                    <img className="object-cover max-h-[100%] w-[65vw] h-[70vw] md:w-[30vw] rounded-md relative bottom-[1.5vw] right-[1.5vw] md:bottom-[1vw] md:right-[1vw]" src={ProfilePic} alt=" " />
+                    <imag className=" object-cover max-h-[100%] w-[65vw] h-[70vw] md:w-[30vw] rounded-md relative bottom-[1.5vw] right-[1.5vw] md:bottom-[1vw] md:right-[1vw]" src={ProfilePic} alt=" " />
                 </div>
             </div>
 
