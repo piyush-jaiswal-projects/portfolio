@@ -4,10 +4,16 @@ function HeroTemplate(props) {
     var page, data;
 
     if (props.type === "page") {
-         page = window.location.pathname.substring(1);
-         data = heroText.filter(obj => obj.page === page); 
+        page = window.location.pathname.substring(1);
+        data = heroText.filter(obj => obj.page === page);
     }
-    else if(props.type === "ProjectPage") {
+    else if (props.type === "ProjectPage" || props.type === "notes") {
+        data = [{
+            title: props.title,
+            description : props.desc
+        }]
+    }
+    else if (props.type === "cert") {
         data = [{
             title: props.title,
             description : props.desc

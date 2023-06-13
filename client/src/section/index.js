@@ -11,4 +11,5 @@ export { default as Story } from './story'
 export { default as Introduction } from './introduction'
 export { default as TechCarousel } from './tech-carousel'
 export { default as CertCarousel } from './cert-carousel'
-
+export { default as StudyNotes } from './study-notes'
+export { default as CertBody } from './cert-body'

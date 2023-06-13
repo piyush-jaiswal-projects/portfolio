@@ -1,10 +1,8 @@
-import React from 'react'
-import { Logo } from '../components'
+import React from 'react'  
 
 export default function PageFallback(props){
     return (
         <div className="bg-darkblue h-screen bg-img">
-        <Logo />    
 
             <div className='h-4/5'>
                 <h2 className='align-middle text-bold text-lightblue text-center text-5xl'>

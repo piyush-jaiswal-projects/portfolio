@@ -19,4 +19,5 @@ export { default as Tab } from './project-tab'
 export { default as Label } from './label'
 export { default as CircularImage } from './circular-tech-image'
 export { default as CertificateCard } from './cert-card'
+export { default as NotesCard } from './notes-card'
 

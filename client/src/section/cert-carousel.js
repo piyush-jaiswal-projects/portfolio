@@ -21,9 +21,8 @@ export default function TechCarousel() {
                 infiniteLoop={true}>
 
                 {certificates.map((cert) => {
-                    console.log(cert);
                 return (
-                    <CertificateCard id={cert.id} name={cert.name} />
+                    <CertificateCard id={cert.id} title={cert.title} />
                 )
                 })}
                 

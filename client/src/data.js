@@ -1,5 +1,12 @@
 import { Project1 } from "./assets";
 
+const developerMailId = "developerpiyush1610@gmail.com";
+const Linkedin = "https://www.linkedin.com/in/piyushjaiswal1610/";
+const Twitter = "https://twitter.com/PiyushJ17317768";
+const Github = "https://github.com/piyush-jaiswal-projects";
+const Leetcode = "https://leetcode.com/piyushjaiswal1610/";
+const resumeURL = "https://drive.google.com/file/d/1B28Y8dIPNmC43k6lf8JuqLIAIweJ6CLH/view?usp=sharing";
+
 const navLink = ["HOME", "PROJECTS", "ABOUT", "BLOG", "EXPERIENCE", "RESUME"];
 
 const heroText = [
@@ -29,8 +36,6 @@ const heroText = [
         description: "A single piece of paper :)"
     }
 ];
-
-const developerMailId = "developerpiyush1610@gmail.com";
 
 const projects = [
     {
@@ -119,65 +124,108 @@ const projects = [
     }
 ]
 
-const techStacks = ["HTML", "CSS", "Javascript", "ReactJS", "TailwindCSS", "jQuery", "Node", "ExpressJS", "MongoDB", "Docker", "HTML", "CSS", "Javascript", "ReactJS", "TailwindCSS", "jQuery", "Node", "ExpressJS", "MongoDB", "Docker","HTML", "CSS", "Javascript", "ReactJS", "TailwindCSS", "jQuery", "Node", "ExpressJS", "MongoDB", "Docker"];
+const techStacks = ["HTML", "CSS", "Javascript", "ReactJS", "TailwindCSS", "jQuery", "Node", "ExpressJS", "MongoDB", "Docker", "HTML", "CSS", "Javascript", "ReactJS", "TailwindCSS", "jQuery", "Node", "ExpressJS", "MongoDB", "Docker", "HTML", "CSS", "Javascript", "ReactJS", "TailwindCSS", "jQuery", "Node", "ExpressJS", "MongoDB", "Docker"];
 
 const certificates = [{
     id: 1,
-    name: "Project1"
+    title: "Cert1",
+    desc: "Desc Hu Mai",
+    outcomes: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit."]
 },
 {
-    id: 1,
-    name: "Project1"
+    id: 2,
+    title: "Cert2",
+    desc: "Desc Hu Mai",
+    outcomes: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit."]
     },
     {
-        id: 1,
-        name: "Project1"
+        id: 3,
+        title: "Cert3",
+        desc: "Desc Hu Mai",
+        outcomes: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit."]
+    
     },
     {
-        id: 1,
-        name: "Project1"
+        id: 4,
+        title: "Cert4",
+        desc: "Desc Hu Mai",
+        outcomes: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit."]
+    
     },
     {
-        id: 1,
-        name: "Project1"
+        id: 5,
+        title: "Cert5",
+        desc: "Desc Hu Mai",
+        outcomes: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit."]
+    
     },
     {
-        id: 1,
-        name: "Project1"
+        id: 6,
+        title: "Cert6",
+        desc: "Desc Hu Mai",
+        outcomes: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit."]
+    
     },
     
     {
-        id: 1,
-        name: "Project1"
+        id: 7,
+        title: "Cert7",
+        desc: "Desc Hu Mai",
+        outcomes: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit."]
+    
     },
     {
-        id: 1,
-        name: "Project1"
+        id: 8,
+        title: "Cert8",
+        desc: "Desc Hu Mai",
+        outcomes: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit."]
+    
     },
     {
-        id: 1,
-        name: "Project1"
+        id: 9,
+        title: "Cert9",
+        desc: "Desc Hu Mai",
+        outcomes: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit."]
+    
     },
     {
-        id: 1,
-        name: "Project1"
+        id: 10,
+        title: "Cert10",
+        desc: "Desc Hu Mai",
+        outcomes: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit."]
+    
     },
     {
-        id: 1,
-        name: "Project1"
+        id: 11,
+        title: "Cert11",
+        desc: "Desc Hu Mai",
+        outcomes: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit."]
+    
     },
     {
-        id: 1,
-        name: "Project1"
+        id: 12,
+        title: "Cert12",
+        desc: "Desc Hu Mai",
+        outcomes: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit."]
+    
         }
  
 ]
 
-const resumeURL = "https://drive.google.com/file/d/1B28Y8dIPNmC43k6lf8JuqLIAIweJ6CLH/view?usp=sharing";
+const notes = [{id: 1, title: "Operating System", desc: "Desc hu mai", url:"https://github.com/piyush-jaiswal-projects/react-hooks/blob/master/src/hooks/ContextAPI.js", src: "https://tailwindcss.com/docs/scale"}, {id: 2, title: "Operating System", desc: "Desc 2 hu mai", url:"https://github.com/piyush-jaiswal-projects/react-hooks/blob/master/src/hooks/ContextAPI.js", src: "https://tailwindcss.com/docs/scale"}, {id: 1, title: "Operating System", url:"https://github.com/piyush-jaiswal-projects/react-hooks/blob/master/src/hooks/ContextAPI.js", src: "https://tailwindcss.com/docs/scale"}, {id: 1, title: "Operating System", url:"https://github.com/piyush-jaiswal-projects/react-hooks/blob/master/src/hooks/ContextAPI.js", src: "https://tailwindcss.com/docs/scale"}, {id: 1, title: "Operating System", url:"https://github.com/piyush-jaiswal-projects/react-hooks/blob/master/src/hooks/ContextAPI.js", src: "https://tailwindcss.com/docs/scale"},{id: 1, title: "Operating System", url:"https://github.com/piyush-jaiswal-projects/react-hooks/blob/master/src/hooks/ContextAPI.js", src: "https://tailwindcss.com/docs/scale"}, {id: 1, title: "Operating System", url:"https://github.com/piyush-jaiswal-projects/react-hooks/blob/master/src/hooks/ContextAPI.js", src: "https://tailwindcss.com/docs/scale"}, {id: 1, title: "Operating System", url:"https://github.com/piyush-jaiswal-projects/react-hooks/blob/master/src/hooks/ContextAPI.js", src: "https://tailwindcss.com/docs/scale"}, {id: 1, title: "Operating System", url:"https://github.com/piyush-jaiswal-projects/react-hooks/blob/master/src/hooks/ContextAPI.js", src: "https://tailwindcss.com/docs/scale"}, {id: 1, title: "Operating System", url:"https://github.com/piyush-jaiswal-projects/react-hooks/blob/master/src/hooks/ContextAPI.js", src: "https://tailwindcss.com/docs/scale"}]
 
-const Linkedin = "https://www.linkedin.com/in/piyushjaiswal1610/";
-const Twitter = "https://twitter.com/PiyushJ17317768";
-const Github = "https://github.com/piyush-jaiswal-projects";
-const Leetcode = "https://leetcode.com/piyushjaiswal1610/";
 
-export { navLink, heroText, developerMailId, projects, resumeURL, Linkedin, Twitter, Github, Leetcode, techStacks, certificates };
+export {
+    navLink,
+    heroText,
+    developerMailId,
+    projects,
+    resumeURL,
+    Linkedin,
+    Twitter,
+    Github,
+    Leetcode,
+    techStacks,
+    certificates,
+    notes
+};
