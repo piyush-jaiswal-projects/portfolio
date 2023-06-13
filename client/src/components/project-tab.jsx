@@ -28,7 +28,7 @@ export default function Tab() {
 
 function TabButton(props) {
     return (
-        <button onClick={props.function} className=" w-[12vw] inline-flex cursor-pointer py-[10px] text-lightblue text-[3vw] md:text-[2.2vw] lg:text-[1.5vw]">
+        <button onClick={props.function} className=" w-[12vw] inline-flex justify-center cursor-pointer py-[10px] text-lightblue text-[3vw] md:text-[2.2vw] lg:text-[1.5vw]">
             {props.text}
         </button>
     )

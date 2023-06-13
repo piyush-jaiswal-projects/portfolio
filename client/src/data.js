@@ -37,79 +37,85 @@ const projects = [
         id: 1,
         tag: "Frontend",
         title: "Video Streaming Web App",
+        tagline: "Tagline Hu Mai",
         previewImage: Project1,
         git: "https://github.com/piyush-jaiswal-projects/portfolio",
         live: "https://symphonious-praline-82b0d6.netlify.app/",
-        tech: ["HTML", "CSS", "Javascript"],
+        tech: ["ReactJS", "CSS", "Javascript", "HTML", "Node", "Docker"],
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt massa eget turpis tincidunt hendrerit. Duis convallis hendrerit porttitor. Etiam finibus consectetur tempor. Suspendisse sed luctus tortor. Proin gravida viverra elit, quis luctus ex gravida non. Etiam id risus ante. Suspendisse eget eros ac velit pretium pharetra.",
-        standard: ["one", "two", "three", "four", "five"],
-        standout: ["one", "two", "three"],
-        achievements: ["one", "two", "three", "four"]
+        standard: ["oneLorem ipsum dolor sit amet, consectetur adipiscing elit.", "twoLorem ipsum dolor sit amet, consectetur adipiscing elit.", "threeLorem ipsum dolor sit amet, consectetur adipiscing elit.", "fourLorem ipsum dolor sit amet, consectetur adipiscing elit.", "fiveLorem ipsum dolor sit amet, consectetur adipiscing elit."],
+        standout: ["oneLorem ipsum dolor sit amet, consectetur adipiscing elit.", "twoLorem ipsum dolor sit amet, consectetur adipiscing elit.", "threeLorem ipsum dolor sit amet, consectetur adipiscing elit."],
+        achievements: ["oneLorem ipsum dolor sit amet, consectetur adipiscing elit.", "twoLorem ipsum dolor sit amet, consectetur adipiscing elit.", "threeLorem ipsum dolor sit amet, consectetur adipiscing elit.", "fourLorem ipsum dolor sit amet, consectetur adipiscing elit."]
     },
     {
         id: 2,
         tag: "Backend",
         title: "Video Streaming App",
+        tagline: "Tagline Hu Mai",
         previewImage: Project1,
         git: "https://github.com/piyush-jaiswal-projects/portfolio",
         live: "https://symphonious-praline-82b0d6.netlify.app/",
-        tech: ["HTML", "CSS", "Javascript"],
+        tech: ["HTML", "Docker", "Javascript"],
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt massa eget turpis tincidunt hendrerit. Duis convallis hendrerit porttitor. Etiam finibus consectetur tempor. Suspendisse sed luctus tortor. Proin gravida viverra elit, quis luctus ex gravida non. Etiam id risus ante. Suspendisse eget eros ac velit pretium pharetra.",
-        standard: ["one", "two", "three", "four", "five"],
-        standout: ["one", "two", "three"],
-        achievements: ["one", "two", "three", "four"]
+        standard: ["oneLorem ipsum dolor sit amet, consectetur adipiscing elit.", "twoLorem ipsum dolor sit amet, consectetur adipiscing elit.", "threeLorem ipsum dolor sit amet, consectetur adipiscing elit.", "fourLorem ipsum dolor sit amet, consectetur adipiscing elit.", "fiveLorem ipsum dolor sit amet, consectetur adipiscing elit."],
+        standout: ["oneLorem ipsum dolor sit amet, consectetur adipiscing elit.", "twoLorem ipsum dolor sit amet, consectetur adipiscing elit.", "threeLorem ipsum dolor sit amet, consectetur adipiscing elit."],
+        achievements: ["oneLorem ipsum dolor sit amet, consectetur adipiscing elit.", "twoLorem ipsum dolor sit amet, consectetur adipiscing elit.", "threeLorem ipsum dolor sit amet, consectetur adipiscing elit.", "fourLorem ipsum dolor sit amet, consectetur adipiscing elit."]
     },
     {
         id: 3,
         tag: "Fullstack",
         title: "Video Streaming App",
+        tagline: "Tagline Hu Mai",
         previewImage: Project1,
         git: "https://github.com/piyush-jaiswal-projects/portfolio",
         live: "https://symphonious-praline-82b0d6.netlify.app/",
         tech: ["HTML", "CSS", "Javascript"],
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt massa eget turpis tincidunt hendrerit. Duis convallis hendrerit porttitor. Etiam finibus consectetur tempor. Suspendisse sed luctus tortor. Proin gravida viverra elit, quis luctus ex gravida non. Etiam id risus ante. Suspendisse eget eros ac velit pretium pharetra.",
-        standard: ["one", "two", "three", "four", "five"],
-        standout: ["one", "two", "three"],
-        achievements: ["one", "two", "three", "four"]
+        standard: ["oneLorem ipsum dolor sit amet, consectetur adipiscing elit.", "twoLorem ipsum dolor sit amet, consectetur adipiscing elit.", "threeLorem ipsum dolor sit amet, consectetur adipiscing elit.", "fourLorem ipsum dolor sit amet, consectetur adipiscing elit.", "fiveLorem ipsum dolor sit amet, consectetur adipiscing elit."],
+        standout: ["oneLorem ipsum dolor sit amet, consectetur adipiscing elit.", "twoLorem ipsum dolor sit amet, consectetur adipiscing elit.", "threeLorem ipsum dolor sit amet, consectetur adipiscing elit."],
+        achievements: ["oneLorem ipsum dolor sit amet, consectetur adipiscing elit.", "twoLorem ipsum dolor sit amet, consectetur adipiscing elit.", "threeLorem ipsum dolor sit amet, consectetur adipiscing elit.", "fourLorem ipsum dolor sit amet, consectetur adipiscing elit."]
     },
     {
         id: 4,
         tag: "Others",
         title: "Video Streaming App",
+        tagline: "Tagline Hu Mai",
         previewImage: Project1,
         git: "https://github.com/piyush-jaiswal-projects/portfolio",
         live: "https://symphonious-praline-82b0d6.netlify.app/",
         tech: ["HTML", "CSS", "Javascript"],
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt massa eget turpis tincidunt hendrerit. Duis convallis hendrerit porttitor. Etiam finibus consectetur tempor. Suspendisse sed luctus tortor. Proin gravida viverra elit, quis luctus ex gravida non. Etiam id risus ante. Suspendisse eget eros ac velit pretium pharetra.",
-        standard: ["one", "two", "three", "four", "five"],
-        standout: ["one", "two", "three"],
-        achievements: ["one", "two", "three", "four"]
+        standard: ["oneLorem ipsum dolor sit amet, consectetur adipiscing elit.", "twoLorem ipsum dolor sit amet, consectetur adipiscing elit.", "threeLorem ipsum dolor sit amet, consectetur adipiscing elit.", "fourLorem ipsum dolor sit amet, consectetur adipiscing elit.", "fiveLorem ipsum dolor sit amet, consectetur adipiscing elit."],
+        standout: ["oneLorem ipsum dolor sit amet, consectetur adipiscing elit.", "twoLorem ipsum dolor sit amet, consectetur adipiscing elit.", "threeLorem ipsum dolor sit amet, consectetur adipiscing elit."],
+        achievements: ["oneLorem ipsum dolor sit amet, consectetur adipiscing elit.", "twoLorem ipsum dolor sit amet, consectetur adipiscing elit.", "threeLorem ipsum dolor sit amet, consectetur adipiscing elit.", "fourLorem ipsum dolor sit amet, consectetur adipiscing elit."]
     },
     {
         id: 5,
         tag: "DSA",
         title: "Video Streaming App",
+        tagline: "Tagline Hu Mai",
         previewImage: Project1,
         git: "https://github.com/piyush-jaiswal-projects/portfolio",
         live: "https://symphonious-praline-82b0d6.netlify.app/",
         tech: ["HTML", "CSS", "Javascript"],
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt massa eget turpis tincidunt hendrerit. Duis convallis hendrerit porttitor. Etiam finibus consectetur tempor. Suspendisse sed luctus tortor. Proin gravida viverra elit, quis luctus ex gravida non. Etiam id risus ante. Suspendisse eget eros ac velit pretium pharetra.",
-        standard: ["one", "two", "three", "four", "five"],
-        standout: ["one", "two", "three"],
-        achievements: ["one", "two", "three", "four"]
+        standard: ["oneLorem ipsum dolor sit amet, consectetur adipiscing elit.", "twoLorem ipsum dolor sit amet, consectetur adipiscing elit.", "threeLorem ipsum dolor sit amet, consectetur adipiscing elit.", "fourLorem ipsum dolor sit amet, consectetur adipiscing elit.", "fiveLorem ipsum dolor sit amet, consectetur adipiscing elit."],
+        standout: ["oneLorem ipsum dolor sit amet, consectetur adipiscing elit.", "twoLorem ipsum dolor sit amet, consectetur adipiscing elit.", "threeLorem ipsum dolor sit amet, consectetur adipiscing elit."],
+        achievements: ["oneLorem ipsum dolor sit amet, consectetur adipiscing elit.", "twoLorem ipsum dolor sit amet, consectetur adipiscing elit.", "threeLorem ipsum dolor sit amet, consectetur adipiscing elit.", "fourLorem ipsum dolor sit amet, consectetur adipiscing elit."]
     },
     {
         id: 6,
         tag: "DSA",
         title: "Video Streaming App",
+        tagline: "Tagline Hu Mai",
         previewImage: Project1,
         git: "https://github.com/piyush-jaiswal-projects/portfolio",
         live: "https://symphonious-praline-82b0d6.netlify.app/",
-        tech: ["HTML", "CSS", "Javascript"],
+        tech: ["HTML", "CSS", "Node"],
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt massa eget turpis tincidunt hendrerit. Duis convallis hendrerit porttitor. Etiam finibus consectetur tempor. Suspendisse sed luctus tortor. Proin gravida viverra elit, quis luctus ex gravida non. Etiam id risus ante. Suspendisse eget eros ac velit pretium pharetra.",
-        standard: ["one", "two", "three", "four", "five"],
-        standout: ["one", "two", "three"],
-        achievements: ["one", "two", "three", "four"]
+        standard: ["oneLorem ipsum dolor sit amet, consectetur adipiscing elit.", "twoLorem ipsum dolor sit amet, consectetur adipiscing elit.", "threeLorem ipsum dolor sit amet, consectetur adipiscing elit.", "fourLorem ipsum dolor sit amet, consectetur adipiscing elit.", "fiveLorem ipsum dolor sit amet, consectetur adipiscing elit."],
+        standout: ["oneLorem ipsum dolor sit amet, consectetur adipiscing elit.", "twoLorem ipsum dolor sit amet, consectetur adipiscing elit.", "threeLorem ipsum dolor sit amet, consectetur adipiscing elit."],
+        achievements: ["oneLorem ipsum dolor sit amet, consectetur adipiscing elit.", "twoLorem ipsum dolor sit amet, consectetur adipiscing elit.", "threeLorem ipsum dolor sit amet, consectetur adipiscing elit.", "fourLorem ipsum dolor sit amet, consectetur adipiscing elit."]
     }
 ]
 

@@ -4,7 +4,7 @@ import {Landing, Projects, AboutMe, Connect
 function Home() {
     return (
         <>
-            <Landing /> 
+            <Landing type="page"/> 
             <Projects />
             <AboutMe />
             <Connect />

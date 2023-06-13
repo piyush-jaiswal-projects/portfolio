@@ -17,3 +17,12 @@ export { default as twitter } from './socials/twitter.svg';
 export { default as mail } from './socials/email.svg';
 export { default as leetcode } from './socials/leetcode.svg';
 
+
+//TECH STACK LOGOS
+export { default as HTML } from './tech/html.svg'
+export { default as CSS } from './tech/css.svg'
+export { default as Javascript } from './tech/js.svg'
+export { default as Docker } from './tech/docker.svg'
+export { default as ReactJS } from './tech/react.svg'
+export { default as Node } from './tech/nodejs.svg'
+

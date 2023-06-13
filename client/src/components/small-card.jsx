@@ -17,7 +17,7 @@ export default function SmallCard(props) {
                 </div>
 
                 <div className="px-3">
-                 <a href={"/projects/" + props.item.id} rel="noreferrer" target="_blank" >
+                 <a href={"/projects/" + props.item.id} >
                  <img className="m-0 p-0 w-[8vw] sm:w-[6vw] md:w-[4vw] lg:w-[2vw] invert-[0.75]" src={rightArrow} alt={props.item.name} />
                 </a>
                 </div>

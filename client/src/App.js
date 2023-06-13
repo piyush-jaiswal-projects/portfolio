@@ -1,4 +1,4 @@
-import { Home, Project, About, Experience, Blog, Resume } from "./pages";
+import { Home, Project, About, Experience, Blog, Resume, ProjectPage } from "./pages";
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import ErrorBoundary from './ErrorHandler/error-boundary'
 import PageFallback from "./ErrorHandler/page-fallback";
@@ -16,6 +16,7 @@ function App() {
           <Route path="blog" element={<ErrorBoundary><Blog /></ErrorBoundary>} />
           <Route path="experience" element={<ErrorBoundary><Experience /></ErrorBoundary>} />
           <Route path="resume" element={<ErrorBoundary><Resume /></ErrorBoundary>} />
+          <Route path="projects/:projectId" element={<ErrorBoundary><ProjectPage /></ErrorBoundary>} />
           <Route path="*" element={<ErrorBoundary><PageFallback tag="page"/></ErrorBoundary>} />
         </Routes>
       </BrowserRouter>

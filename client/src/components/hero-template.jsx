@@ -7,6 +7,12 @@ function HeroTemplate(props) {
          page = window.location.pathname.substring(1);
          data = heroText.filter(obj => obj.page === page); 
     }
+    else if(props.type === "ProjectPage") {
+        data = [{
+            title: props.title,
+            description : props.desc
+        }]
+    }
     
     return (
         <div className="h-auto md:h-[50vw] lg:h-[35vw] flex items-center shadow">

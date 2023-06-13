@@ -3,7 +3,7 @@ import { Landing } from "../section";
 function Experience() {
     return (
         <>
-        <Landing>
+        <Landing type="page">
             {/* Specific Child */}
        </Landing>     
     </>

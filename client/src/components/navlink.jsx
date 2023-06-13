@@ -1,5 +1,4 @@
 
-
 function Navlink(props) {
     var link;
     switch (props.name) {
@@ -7,22 +6,22 @@ function Navlink(props) {
             link="/"
             break;
         case "PROJECTS":
-            link="projects"
+            link="/projects"
             break;
         case "ABOUT":
-            link = "about"
+            link = "/about"
             break;
         case "BLOG":
-            link = "blog"
+            link = "/blog"
             break;
         case "EXPERIENCE":
-            link = "experience"
+            link = "/experience"
             break;
         case "RESUME":
-            link = "resume"
+            link = "/resume"
             break;
         default:
-            link = "random"
+            link = "/random"
             break;
     }
     return (

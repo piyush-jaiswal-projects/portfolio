@@ -3,7 +3,7 @@ import { Landing } from "../section";
 function Blog() {
     return (
         <>
-        <Landing>
+        <Landing type="page">
             {/* Specific Child */}
        </Landing>     
         </>

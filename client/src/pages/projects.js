@@ -3,7 +3,7 @@ import {Landing, Connect, ProjectGrid} from '../section'
 function Project() {
     return (
         <>
-            <Landing />
+            <Landing type="page" />
             <ProjectGrid />
             <Connect />
     </>

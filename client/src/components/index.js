@@ -16,4 +16,5 @@ export { default as TextPara } from './text-para'
 export { default as SmallCard } from './small-card'
 export { default as Grid } from './grid'
 export { default as Tab } from './project-tab'
-
+export { default as Label } from './label'
+export {default as CircularImage} from './circular-tech-image'

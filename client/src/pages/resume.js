@@ -6,7 +6,7 @@ function ResumeViewer() {
     
     return (
         <>
-            <Landing />
+            <Landing type="page" />
             <div className="flex justify-end m-[20px]">
                 <ButtonTwo text="Download Resume" />
                 <ButtonTwo text="Mail Resume" />
