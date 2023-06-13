@@ -61,7 +61,7 @@ const projects = [
     },
     {
         id: 3,
-        tag: "Full Stack",
+        tag: "Fullstack",
         title: "Video Streaming App",
         previewImage: Project1,
         git: "https://github.com/piyush-jaiswal-projects/portfolio",
@@ -74,7 +74,7 @@ const projects = [
     },
     {
         id: 4,
-        tag: "Chrome Extension",
+        tag: "Others",
         title: "Video Streaming App",
         previewImage: Project1,
         git: "https://github.com/piyush-jaiswal-projects/portfolio",
@@ -87,6 +87,19 @@ const projects = [
     },
     {
         id: 5,
+        tag: "DSA",
+        title: "Video Streaming App",
+        previewImage: Project1,
+        git: "https://github.com/piyush-jaiswal-projects/portfolio",
+        live: "https://symphonious-praline-82b0d6.netlify.app/",
+        tech: ["HTML", "CSS", "Javascript"],
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt massa eget turpis tincidunt hendrerit. Duis convallis hendrerit porttitor. Etiam finibus consectetur tempor. Suspendisse sed luctus tortor. Proin gravida viverra elit, quis luctus ex gravida non. Etiam id risus ante. Suspendisse eget eros ac velit pretium pharetra.",
+        standard: ["one", "two", "three", "four", "five"],
+        standout: ["one", "two", "three"],
+        achievements: ["one", "two", "three", "four"]
+    },
+    {
+        id: 6,
         tag: "DSA",
         title: "Video Streaming App",
         previewImage: Project1,

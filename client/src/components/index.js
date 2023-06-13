@@ -14,4 +14,6 @@ export { default as CircularLink } from './circular-link'
 export { default as Heading } from './heading'
 export { default as TextPara } from './text-para'
 export { default as SmallCard } from './small-card'
+export { default as Grid } from './grid'
+export { default as Tab } from './project-tab'
 
