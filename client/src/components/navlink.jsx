@@ -24,10 +24,11 @@ function Navlink(props) {
             link = "/random"
             break;
     }
+    console.log(window.location.pathname);
     return (
         <div className="inline-flex flex-col items-center text-lightblue mx-5">
             <a className="block" href={link} id={props.name.toLowerCase() + "navlink"}>{props.name}</a>
-            {window.location.pathname === "/"+(link === "/" ? "" : link) ? <NavlinkCircle /> : ""}
+            {window.location.pathname === link ? <NavlinkCircle /> : ""}
         </div>
     )
 }

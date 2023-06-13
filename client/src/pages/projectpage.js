@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { projects } from "../data";
-import { Landing, Connect, ProjectBody } from "../section";
+import { Landing, Connect, ProjectBody, FeedbackForm } from "../section";
 
 export default function ProjectPage(props) {
     const projectId = useParams().projectId;
@@ -12,7 +12,9 @@ export default function ProjectPage(props) {
             <Landing type="ProjectPage" title={project.title} desc={project.tagline} />
             <ProjectBody project={project} />
             <Connect />
-
+            <FeedbackForm title="Feedback" desc="It would mean world to me if you take out few seconds out
+                of your busy schedule to write a feedback for me 
+                so that I can improve."/>
         </div>
     )
 }
