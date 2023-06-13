@@ -1,4 +1,4 @@
-import { Landing, Connect, FeedbackForm, Story, Introduction, TechCarousel } from "../section";
+import { Landing, Connect, FeedbackForm, Story, Introduction, TechCarousel, CertCarousel } from "../section";
 
 function About() {
     return (
@@ -6,6 +6,7 @@ function About() {
             <Landing type="page" />
             <Introduction />
             <TechCarousel />
+            <CertCarousel />
             <Story />
             <FeedbackForm title="Wanna say something?" desc="" />
             <Connect />    

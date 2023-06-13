@@ -1,30 +1,32 @@
-import { CircularImage } from "../components"
-import { techStacks } from "../data";
+import { certificates } from "../data";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import { Heading } from '../components'
+import { Heading, CertificateCard } from '../components'
 
 
 export default function TechCarousel() {
     return (
-        <div className="bg-darkblueTwo py-2 align-middle">
-            <Heading text="Tech I Know" />
+        <div className="bg-darkblueThree py-2 align-middle">
+            <Heading text="Certifications" />
             <Carousel
                 transitionTime={1000}
                 autoPlay={true}
                 centerMode={true}
                 showStatus={false}
                 showIndicators={false}
-                centerSlidePercentage={20}
+                centerSlidePercentage={30}
                 showArrows={false}
-                interval={1000}
+                interval={3000}
                 infiniteLoop={true}>
-            {techStacks.map((tech) => {
+
+                {certificates.map((cert) => {
+                    console.log(cert);
                 return (
-                    <CircularImage name={tech} />
+                    <CertificateCard id={cert.id} name={cert.name} />
                 )
-            })}
+                })}
+                
         </Carousel>
         </div>
     )

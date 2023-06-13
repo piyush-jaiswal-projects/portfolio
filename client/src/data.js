@@ -119,10 +119,59 @@ const projects = [
     }
 ]
 
-const techStacks = ["HTML", "CSS", "Javascript", "ReactJS", "TailwindCSS", "jQuery", "Node", "ExpressJS", "MongoDB", "Docker",
-    "HTML", "CSS", "Javascript", "ReactJS", "TailwindCSS", "jQuery", "Node", "ExpressJS", "MongoDB", "Docker",
-    "HTML", "CSS", "Javascript", "ReactJS", "TailwindCSS", "jQuery", "Node", "ExpressJS", "MongoDB", "Docker"];
+const techStacks = ["HTML", "CSS", "Javascript", "ReactJS", "TailwindCSS", "jQuery", "Node", "ExpressJS", "MongoDB", "Docker", "HTML", "CSS", "Javascript", "ReactJS", "TailwindCSS", "jQuery", "Node", "ExpressJS", "MongoDB", "Docker","HTML", "CSS", "Javascript", "ReactJS", "TailwindCSS", "jQuery", "Node", "ExpressJS", "MongoDB", "Docker"];
+
+const certificates = [{
+    id: 1,
+    name: "Project1"
+},
+{
+    id: 1,
+    name: "Project1"
+    },
+    {
+        id: 1,
+        name: "Project1"
+    },
+    {
+        id: 1,
+        name: "Project1"
+    },
+    {
+        id: 1,
+        name: "Project1"
+    },
+    {
+        id: 1,
+        name: "Project1"
+    },
     
+    {
+        id: 1,
+        name: "Project1"
+    },
+    {
+        id: 1,
+        name: "Project1"
+    },
+    {
+        id: 1,
+        name: "Project1"
+    },
+    {
+        id: 1,
+        name: "Project1"
+    },
+    {
+        id: 1,
+        name: "Project1"
+    },
+    {
+        id: 1,
+        name: "Project1"
+        }
+ 
+]
 
 const resumeURL = "https://drive.google.com/file/d/1B28Y8dIPNmC43k6lf8JuqLIAIweJ6CLH/view?usp=sharing";
 
@@ -131,4 +180,4 @@ const Twitter = "https://twitter.com/PiyushJ17317768";
 const Github = "https://github.com/piyush-jaiswal-projects";
 const Leetcode = "https://leetcode.com/piyushjaiswal1610/";
 
-export { navLink, heroText, developerMailId, projects, resumeURL, Linkedin, Twitter, Github, Leetcode, techStacks };
+export { navLink, heroText, developerMailId, projects, resumeURL, Linkedin, Twitter, Github, Leetcode, techStacks, certificates };
