@@ -15,7 +15,10 @@ function HomeHero() {
 
                 <div className="p-0  mt-[3vw] md:mt-[1.5vw]">
                     <Button text="Hire Me" function={()=>SendMail("Hiring Inquiry", "")} />
-                    <Button text="Get in touch" function={()=>ScrollToDiv("contact")} />
+                    <Button text="Get in touch" function={() => {
+                        ScrollToDiv("Connect");
+                        document.getElementById("Connect").focus();
+                    } } />
                 </div>
 
                 <div>

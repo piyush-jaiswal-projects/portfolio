@@ -1,4 +1,5 @@
 import { Project1 } from "./assets";
+// import { GetPost } from "./functions";
 
 const developerMailId = "developerpiyush1610@gmail.com";
 const Linkedin = "https://www.linkedin.com/in/piyushjaiswal1610/";
@@ -6,6 +7,7 @@ const Twitter = "https://twitter.com/PiyushJ17317768";
 const Github = "https://github.com/piyush-jaiswal-projects";
 const Leetcode = "https://leetcode.com/piyushjaiswal1610/";
 const resumeURL = "https://drive.google.com/file/d/1B28Y8dIPNmC43k6lf8JuqLIAIweJ6CLH/preview";
+const blogAPIKey = "qgAaSN1FJw1RNtct8UF97t5t";
 
 const navLink = ["HOME", "PROJECTS", "ABOUT", "BLOG", "EXPERIENCE", "RESUME"];
 
@@ -130,6 +132,7 @@ const certificates = [{
     id: 1,
     title: "Cert1",
     desc: "Desc Hu Mai",
+    url: "https://drive.google.com/file/d/1GiZ9hj0cz6Cg9kgnOwBMUYmz9m9GNjB7/preview",
     outcomes: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit."]
 },
 {
@@ -212,7 +215,7 @@ const certificates = [{
  
 ]
 
-const notes = [{id: 1, title: "Operating System", desc: "Desc hu mai", url:"https://github.com/piyush-jaiswal-projects/react-hooks/blob/master/src/hooks/ContextAPI.js", src: "https://tailwindcss.com/docs/scale"}, {id: 2, title: "Operating System", desc: "Desc 2 hu mai", url:"https://github.com/piyush-jaiswal-projects/react-hooks/blob/master/src/hooks/ContextAPI.js", src: "https://tailwindcss.com/docs/scale"}, {id: 1, title: "Operating System", url:"https://github.com/piyush-jaiswal-projects/react-hooks/blob/master/src/hooks/ContextAPI.js", src: "https://tailwindcss.com/docs/scale"}, {id: 1, title: "Operating System", url:"https://github.com/piyush-jaiswal-projects/react-hooks/blob/master/src/hooks/ContextAPI.js", src: "https://tailwindcss.com/docs/scale"}, {id: 1, title: "Operating System", url:"https://github.com/piyush-jaiswal-projects/react-hooks/blob/master/src/hooks/ContextAPI.js", src: "https://tailwindcss.com/docs/scale"},{id: 1, title: "Operating System", url:"https://github.com/piyush-jaiswal-projects/react-hooks/blob/master/src/hooks/ContextAPI.js", src: "https://tailwindcss.com/docs/scale"}, {id: 1, title: "Operating System", url:"https://github.com/piyush-jaiswal-projects/react-hooks/blob/master/src/hooks/ContextAPI.js", src: "https://tailwindcss.com/docs/scale"}, {id: 1, title: "Operating System", url:"https://github.com/piyush-jaiswal-projects/react-hooks/blob/master/src/hooks/ContextAPI.js", src: "https://tailwindcss.com/docs/scale"}, {id: 1, title: "Operating System", url:"https://github.com/piyush-jaiswal-projects/react-hooks/blob/master/src/hooks/ContextAPI.js", src: "https://tailwindcss.com/docs/scale"}, {id: 1, title: "Operating System", url:"https://github.com/piyush-jaiswal-projects/react-hooks/blob/master/src/hooks/ContextAPI.js", src: "https://tailwindcss.com/docs/scale"}]
+const notes = [{id: 1, title: "Operating System", desc: "Desc hu mai", url:"https://drive.google.com/file/d/1CuML95JJqIh_V9NdrNYh00bqO7QvKoiw/preview", src: "https://tailwindcss.com/docs/scale"}, {id: 2, title: "Operating System", desc: "Desc 2 hu mai", url:"", src: "https://tailwindcss.com/docs/scale"}, {id: 1, title: "Operating System", url:"https://github.com/piyush-jaiswal-projects/react-hooks/blob/master/src/hooks/ContextAPI.js", src: "https://tailwindcss.com/docs/scale"}, {id: 1, title: "Operating System", url:"https://github.com/piyush-jaiswal-projects/react-hooks/blob/master/src/hooks/ContextAPI.js", src: "https://tailwindcss.com/docs/scale"}, {id: 1, title: "Operating System", url:"https://github.com/piyush-jaiswal-projects/react-hooks/blob/master/src/hooks/ContextAPI.js", src: "https://tailwindcss.com/docs/scale"},{id: 1, title: "Operating System", url:"https://github.com/piyush-jaiswal-projects/react-hooks/blob/master/src/hooks/ContextAPI.js", src: "https://tailwindcss.com/docs/scale"}, {id: 1, title: "Operating System", url:"https://github.com/piyush-jaiswal-projects/react-hooks/blob/master/src/hooks/ContextAPI.js", src: "https://tailwindcss.com/docs/scale"}, {id: 1, title: "Operating System", url:"https://github.com/piyush-jaiswal-projects/react-hooks/blob/master/src/hooks/ContextAPI.js", src: "https://tailwindcss.com/docs/scale"}, {id: 1, title: "Operating System", url:"https://github.com/piyush-jaiswal-projects/react-hooks/blob/master/src/hooks/ContextAPI.js", src: "https://tailwindcss.com/docs/scale"}, {id: 1, title: "Operating System", url:"https://github.com/piyush-jaiswal-projects/react-hooks/blob/master/src/hooks/ContextAPI.js", src: "https://tailwindcss.com/docs/scale"}]
 
 const blogs = [{
     id: 1,
@@ -235,6 +238,9 @@ const blogs = [{
         content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vehicula, tortor sit amet fringilla tincidunt, nisi libero varius nunc, vel consequat nunc mauris ac nibh. Praesent sit amet sollicitudin turpis. Aenean tempus tellus id turpis dapibus mattis. Nullam vitae hendrerit nunc. Nam in est a ipsum varius convallis sed quis ex. Quisque placerat vestibulum metus sit amet dapibus. Donec vulputate faucibus eros nec rutrum. Vestibulum non velit erat. In sodales accumsan mi quis ultricies. Pellentesque auctor sem tincidunt turpis fermentum, in posuere diam dictum. Nullam efficitur purus eu leo ornare dapibus. Integer augue nunc, blandit vulputate volutpat sit amet, lobortis ac tortor. Cras in sem interdum odio consequat tristique a ac nisl. Sed nec lectus magna.",
         imageName: "Project1"
     }]
+
+// GetPost();
+
 
 const experiences = [
     {
@@ -287,5 +293,6 @@ export {
     certificates,
     notes,
     blogs,
-    experiences
+    experiences,
+    blogAPIKey
 };

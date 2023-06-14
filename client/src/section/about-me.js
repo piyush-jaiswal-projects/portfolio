@@ -1,5 +1,4 @@
 import { Heading, TextPara, Button } from "../components"
-import { resumeURL } from "../data"
 
 export default function AboutMe() {
     return (
@@ -13,7 +12,7 @@ export default function AboutMe() {
             eget turpis tincidunt hendrerit. Duis convallis hendrerit porttitor. Etiam finibus consectetur tempor. Suspendisse sed luctus tortor. Proin gravida viverra elit, quis luctus ex gravida non. Etiam id risus ante. Suspendisse eget eros ac velit pretium pharetra.
                 </TextPara>
                 
-                <Button text="Resume" actionType="redirect" url={resumeURL} />
+                <Button text="Resume" actionType="redirect" url="/resume" />
                 <Button text="Know More" actionType="redirect" url="/about" />
                 
             </div>

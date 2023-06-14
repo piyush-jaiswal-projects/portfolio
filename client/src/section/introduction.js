@@ -15,7 +15,10 @@ export default function Introduction() {
                 </div>
                 <div className="mx-auto md:mx-0">
                     <Button text="Know More" actionType="function" function={()=>ScrollToDiv("Story")} />
-                    <Button text="Random" actionType="redirect" url="" />
+                    <Button text="Send Message" actionType="function" function={() => {
+                        ScrollToDiv("Message");
+                        document.getElementById("Feedback-Input").focus();
+                    }} />
                 </div>
             </div>
 

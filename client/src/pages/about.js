@@ -18,7 +18,7 @@ function About() {
             <Story />
             <CertCarousel />
             <StudyNotes />
-            <FeedbackForm title="Wanna say something?" desc="" />
+            <FeedbackForm title="Wanna say something?" desc="" id="Message"/>
             <Connect />    
         </>
     )
