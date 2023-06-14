@@ -1,6 +1,8 @@
-import { PDFviewer } from '../components';
+import { PDFviewer, ButtonTwo } from '../components';
 import { Landing } from "../section";
-import { ButtonTwo } from "../components";
+import { resumeURL } from '../data';
+import ErrorBoundary from '../ErrorHandler/error-boundary'
+import { DownloadFile } from '../functions';
 
 function ResumeViewer() {
     
@@ -8,10 +10,11 @@ function ResumeViewer() {
         <>
             <Landing type="page" />
             <div className="flex justify-end m-[20px]">
-                <ButtonTwo text="Download Resume" />
-                <ButtonTwo text="Mail Resume" />
+                <ButtonTwo text="Download Resume" actionType="function" function={()=>{DownloadFile(resumeURL)}} />
             </div>    
-            <PDFviewer filePath="Resume.pdf" />
+            <ErrorBoundary type="component">
+            <PDFviewer title="Resume" fileURL={resumeURL} />
+            </ErrorBoundary>
         </>
     )
 }

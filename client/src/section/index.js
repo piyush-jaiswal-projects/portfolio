@@ -14,4 +14,5 @@ export { default as CertCarousel } from './cert-carousel'
 export { default as StudyNotes } from './study-notes'
 export { default as CertBody } from './cert-body'
 export { default as BlogBody } from './blog-body'
+export { default as ExperienceSec } from './experience'
 

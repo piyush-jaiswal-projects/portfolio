@@ -1,12 +1,11 @@
-import { Landing } from "../section";
+import { Landing, ExperienceSec } from "../section";
 
 function Experience() {
     return (
         <>
-        <Landing type="page">
-            {/* Specific Child */}
-       </Landing>     
-    </>
+            <Landing type="page" />
+            <ExperienceSec />
+        </>
     )
 }
 

@@ -5,7 +5,7 @@ const Linkedin = "https://www.linkedin.com/in/piyushjaiswal1610/";
 const Twitter = "https://twitter.com/PiyushJ17317768";
 const Github = "https://github.com/piyush-jaiswal-projects";
 const Leetcode = "https://leetcode.com/piyushjaiswal1610/";
-const resumeURL = "https://drive.google.com/file/d/1B28Y8dIPNmC43k6lf8JuqLIAIweJ6CLH/view?usp=sharing";
+const resumeURL = "https://drive.google.com/file/d/1B28Y8dIPNmC43k6lf8JuqLIAIweJ6CLH/preview";
 
 const navLink = ["HOME", "PROJECTS", "ABOUT", "BLOG", "EXPERIENCE", "RESUME"];
 
@@ -236,6 +236,43 @@ const blogs = [{
         imageName: "Project1"
     }]
 
+const experiences = [
+    {
+        id: 1,
+        duration: "Jan, 2023 - April, 2023",
+        org: "PACE Mental Health Org",
+        position: "Frontend Developer",
+        url: "https://www.paceful.org/",
+        desc: "Built website to showcase and market their SaaS product. Developed admin portal. Implemented user verification and device notification functionality.",
+        tech: ["React", "HTML", "CSS", "Javascript", "Figma"]
+    },
+    {
+        id: 2,
+        duration: "Aug, 2022 - October, 2022",
+        org: "Freelancing",
+        position: "Full Stack Web Developer",
+        url: "https://lambent-sunshine-6314a7.netlify.app/",
+        desc: "Completed 2 international client projects. Developed a game streaming app using Arcware and built a website for a NGO",
+        tech: ["HTML", "CSS", "React", "Javascript", "jQuery", "Node", "Express", "MongoDB" ]
+    },
+    {
+        id: 3,
+        duration: "Nov, 2021 - October, 2022",
+        org: "Alumni Affairs Cell, UIET, PU",
+        position: "Web Developer",
+        desc: "Responsible for up-gradation, responsiveness and maintenance of official website. Worked on frontend and built modal boxes for different occasions and seminars.",
+        tech: ["React", "HTML", "CSS", "Javascript"]
+    },
+    {
+        id: 4,
+        duration: "Nov, 2021 - May, 2022",
+        org: "Design Innovation Centre, UIET, PU",
+        position: "Backend Developer Intern",
+        desc: "Built the backend for SMART Forest Management App, a project by Forest Department. Built multiple APIs to fetch data and for live animal tracking",
+        tech: ["Node", "Express", "MongoDB", "Socket"]
+    }
+] 
+
 export {
     navLink,
     heroText,
@@ -249,5 +286,6 @@ export {
     techStacks,
     certificates,
     notes,
-    blogs
+    blogs,
+    experiences
 };

@@ -2,7 +2,7 @@ import { Button} from "../components"
 import { useState } from "react"
 
 export default function FeedbackForm(props) {
-    const [data, setData] = useState("Please type here...");
+    const [data, setData] = useState("");
 
     function sendFeedback() {
         alert("Feedback Sent");
@@ -14,7 +14,7 @@ export default function FeedbackForm(props) {
             <p className="mx-auto text-center text-dullblue text-[5vw] sm:text-[4vw] md:text-[3vw] lg:text-[1.3vw] w-[100vw] sm:w-[80vw] md:w-[65vw] lg:w-[50vw] mb-6 leading-tight">
                 {props.desc}
             </p>
-            <input value={data} onChange={(e) => setData(e.target.value)} className="text-lightblue text-center text-[5vw] sm:text-[4vw] md:text-[3vw] lg:text-[1.3vw] p-2 w-[80vw] border border-t-0 border-l-0 border-r-0 border-b-dullblue bg-darkblueTwo mb-4" />
+            <input value={data} onChange={(e) => setData(e.target.value)} placeholder="Please type here..." className="text-lightblue outline-none text-center text-[5vw] sm:text-[4vw] md:text-[3vw] lg:text-[1.3vw] p-2 w-[80vw] border border-t-0 border-l-0 border-r-0 border-b-dullblue bg-darkblueTwo mb-4" />
             <br />
             <Button text="Submit" actionType="function" function={sendFeedback} />
         </div>
