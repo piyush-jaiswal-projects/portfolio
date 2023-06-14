@@ -1,11 +1,10 @@
-import { Landing } from "../section";
+import { Landing, BlogBody } from "../section";
 
 function Blog() {
     return (
         <>
-        <Landing type="page">
-            {/* Specific Child */}
-       </Landing>     
+            <Landing type="page" />
+            <BlogBody />
         </>
     )
 }

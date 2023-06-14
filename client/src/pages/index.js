@@ -7,3 +7,5 @@ export { default as Resume } from './resume'
 export { default as ProjectPage } from './projectpage'
 export { default as NotePage } from './notepage'
 export { default as CertificatePage } from './certificatepage'
+export { default as BlogPage } from './blogpage'
+

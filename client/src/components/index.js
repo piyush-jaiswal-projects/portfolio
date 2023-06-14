@@ -20,4 +20,5 @@ export { default as Label } from './label'
 export { default as CircularImage } from './circular-tech-image'
 export { default as CertificateCard } from './cert-card'
 export { default as NotesCard } from './notes-card'
+export { default as BlogCard } from './blog-card'
 

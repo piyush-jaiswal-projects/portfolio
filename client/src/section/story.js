@@ -3,7 +3,7 @@ import { Heading } from "../components"
 export default function Story(props) {
     return (
         <div id="Story" className="bg-darkblue w-[90vw] text-[3.5vw] sm:text-[3vw] md:text-[2.3vw] lg:text-[1.3vw] mx-auto my-5">
-            <Heading text="" />
+            <Heading text=" Summary " />
             {/* A deep dive into my story */}
             <p className="text-dullblue">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tincidunt eros sit amet laoreet lacinia. Suspendisse fermentum vitae dolor ut auctor. Maecenas accumsan nisi vestibulum leo consectetur, eu iaculis turpis lobortis. Curabitur luctus, magna id lacinia bibendum, quam justo mollis turpis, quis cursus dolor dui nec nunc. Curabitur elementum vel velit eget sodales. Sed consectetur semper magna, sit amet pulvinar ligula efficitur non. Vivamus pharetra libero vel lacus sagittis, ut faucibus libero suscipit. Cras sagittis sem in aliquam egestas. In leo tellus, dictum sit amet condimentum vitae, placerat in ipsum. Integer rutrum semper sem ut hendrerit. In hac habitasse platea dictumst. Etiam suscipit pellentesque convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque tincidunt sem ac sem commodo, ut porttitor ante pulvinar. Nunc non dolor dui.

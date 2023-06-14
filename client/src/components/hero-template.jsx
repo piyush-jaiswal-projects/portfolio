@@ -7,7 +7,7 @@ function HeroTemplate(props) {
         page = window.location.pathname.substring(1);
         data = heroText.filter(obj => obj.page === page);
     }
-    else if (props.type === "ProjectPage" || props.type === "notes") {
+    else if (props.type === "ProjectPage" || props.type === "notes" || props.type === "blog") {
         data = [{
             title: props.title,
             description : props.desc

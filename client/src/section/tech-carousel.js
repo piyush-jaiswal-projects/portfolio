@@ -11,14 +11,14 @@ export default function TechCarousel() {
         <div className="bg-darkblueTwo py-2 align-middle">
             <Heading text="Tech I Know" />
             <Carousel
-                transitionTime={1000}
+                transitionTime={2000}
                 autoPlay={true}
                 centerMode={true}
                 showStatus={false}
                 showIndicators={false}
-                centerSlidePercentage={20}
+                centerSlidePercentage={10}
                 showArrows={false}
-                interval={1000}
+                interval={2000}
                 infiniteLoop={true}>
             {techStacks.map((tech) => {
                 return (
