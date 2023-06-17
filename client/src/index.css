@@ -112,8 +112,12 @@ body{
 .animate-width{
     width: 0vw;
     height: 0vw;
+    background-color: black;
+    opacity: 150%;
+    z-index: 9999;
     overflow: hidden;
     animation: width 1s ease forwards;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 @keyframes width {

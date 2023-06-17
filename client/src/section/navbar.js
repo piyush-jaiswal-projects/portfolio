@@ -26,7 +26,7 @@ function LargeNavbar() {
 
 function Menu() {
     return (
-        <div id="menu" className="animate-width bg-darkblue small-menu animate-custom-menu text-center shadow fixed z-[10] top-[10%] left-[0] border border-solid border-lightblue mx-auto items-center hidden">
+        <div id="menu" className="animate-width rounded-lg small-menu animate-custom-menu text-center shadow fixed z-[10] top-[10%] left-[0] border border-solid border-lightblue mx-auto items-center hidden">
             {navLink.map((link) => {
                 return (
                     <>
