@@ -1,4 +1,4 @@
-import { Project1 } from "./assets";
+import { P1, P2, P3, P4, P5 } from "./assets";
 
 const developerMailId = "developerpiyush1610@gmail.com";
 const Linkedin = "https://www.linkedin.com/in/piyushjaiswal1610/";
@@ -14,7 +14,7 @@ const heroText = [
     {
         page: "projects",
         title: "Projects",
-        description: "Experience all of my art pieces."
+        description: "Experience all of my code pieces."
     },
     {
         page: "blog",
@@ -42,86 +42,72 @@ const projects = [
     {
         id: 1,
         tag: "Frontend",
-        title: "Video Streaming Web App",
-        tagline: "Tagline Hu Mai",
-        previewImage: Project1,
+        title: "Portfolio Website",
+        tagline: "A personal portfolio website",
+        previewImage: P1,
         git: "https://github.com/piyush-jaiswal-projects/portfolio",
-        live: "https://symphonious-praline-82b0d6.netlify.app/",
-        tech: ["ReactJS", "CSS", "Javascript", "HTML", "Node", "Docker"],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt massa eget turpis tincidunt hendrerit. Duis convallis hendrerit porttitor. Etiam finibus consectetur tempor. Suspendisse sed luctus tortor. Proin gravida viverra elit, quis luctus ex gravida non. Etiam id risus ante. Suspendisse eget eros ac velit pretium pharetra.",
-        standard: ["oneLorem ipsum dolor sit amet, consectetur adipiscing elit.", "twoLorem ipsum dolor sit amet, consectetur adipiscing elit.", "threeLorem ipsum dolor sit amet, consectetur adipiscing elit.", "fourLorem ipsum dolor sit amet, consectetur adipiscing elit.", "fiveLorem ipsum dolor sit amet, consectetur adipiscing elit."],
-        standout: ["oneLorem ipsum dolor sit amet, consectetur adipiscing elit.", "twoLorem ipsum dolor sit amet, consectetur adipiscing elit.", "threeLorem ipsum dolor sit amet, consectetur adipiscing elit."],
-        achievements: ["oneLorem ipsum dolor sit amet, consectetur adipiscing elit.", "twoLorem ipsum dolor sit amet, consectetur adipiscing elit.", "threeLorem ipsum dolor sit amet, consectetur adipiscing elit.", "fourLorem ipsum dolor sit amet, consectetur adipiscing elit."]
+        live: "https://portfolio1610.vercel.app/",
+        tech: ["ReactJS", "CSS", "Javascript", "HTML", "Docker"],
+        description: "This website is my personal portfolio web site to showcase my skills, my projects, blogs, and other useful resources.",
+        standard: ["Projects Page with github and live website link", "Skills, certificates, and notes section", "Experience and Resume Page"],
+        standout: ["Category based filter in project page","Blog Page with markup rendering"],
+        achievements: ["Implemented Tailwind CSS", "Learnt basics of Docker", "Reusable Components"]
     },
     {
         id: 2,
         tag: "Backend",
-        title: "Video Streaming App 2",
-        tagline: "Tagline Hu Mai",
-        previewImage: Project1,
-        git: "https://github.com/piyush-jaiswal-projects/portfolio",
-        live: "https://symphonious-praline-82b0d6.netlify.app/",
-        tech: ["HTML", "Docker", "Javascript"],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt massa eget turpis tincidunt hendrerit. Duis convallis hendrerit porttitor. Etiam finibus consectetur tempor. Suspendisse sed luctus tortor. Proin gravida viverra elit, quis luctus ex gravida non. Etiam id risus ante. Suspendisse eget eros ac velit pretium pharetra.",
-        standard: ["oneLorem ipsum dolor sit amet, consectetur adipiscing elit.", "twoLorem ipsum dolor sit amet, consectetur adipiscing elit.", "threeLorem ipsum dolor sit amet, consectetur adipiscing elit.", "fourLorem ipsum dolor sit amet, consectetur adipiscing elit.", "fiveLorem ipsum dolor sit amet, consectetur adipiscing elit."],
-        standout: ["oneLorem ipsum dolor sit amet, consectetur adipiscing elit.", "twoLorem ipsum dolor sit amet, consectetur adipiscing elit.", "threeLorem ipsum dolor sit amet, consectetur adipiscing elit."],
-        achievements: ["oneLorem ipsum dolor sit amet, consectetur adipiscing elit.", "twoLorem ipsum dolor sit amet, consectetur adipiscing elit.", "threeLorem ipsum dolor sit amet, consectetur adipiscing elit.", "fourLorem ipsum dolor sit amet, consectetur adipiscing elit."]
+        title: "Arduino IOT Device Monitoring",
+        tagline: "Live data monitoring",
+        previewImage: P2,
+        git: "https://github.com/piyush-jaiswal-projects/arduino-nodejs-react-realtime-dashboard",
+        live: "https://dreamy-dodol-f0c20f.netlify.app/",
+        tech: ["Node", "ExpressJS", "Javascript"],
+        description: "This webapp takes data from arduino via serial port and then updates the state of various indicators in real time",
+        standard: ["Real time data updation", "Implementation of Streams"],
+        standout: [],
+        achievements: []
     },
     {
         id: 3,
         tag: "Fullstack",
-        title: "Video Streaming App 3",
-        tagline: "Tagline Hu Mai",
-        previewImage: Project1,
-        git: "https://github.com/piyush-jaiswal-projects/portfolio",
-        live: "https://symphonious-praline-82b0d6.netlify.app/",
-        tech: ["HTML", "CSS", "Javascript"],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt massa eget turpis tincidunt hendrerit. Duis convallis hendrerit porttitor. Etiam finibus consectetur tempor. Suspendisse sed luctus tortor. Proin gravida viverra elit, quis luctus ex gravida non. Etiam id risus ante. Suspendisse eget eros ac velit pretium pharetra.",
-        standard: ["oneLorem ipsum dolor sit amet, consectetur adipiscing elit.", "twoLorem ipsum dolor sit amet, consectetur adipiscing elit.", "threeLorem ipsum dolor sit amet, consectetur adipiscing elit.", "fourLorem ipsum dolor sit amet, consectetur adipiscing elit.", "fiveLorem ipsum dolor sit amet, consectetur adipiscing elit."],
-        standout: ["oneLorem ipsum dolor sit amet, consectetur adipiscing elit.", "twoLorem ipsum dolor sit amet, consectetur adipiscing elit.", "threeLorem ipsum dolor sit amet, consectetur adipiscing elit."],
-        achievements: ["oneLorem ipsum dolor sit amet, consectetur adipiscing elit.", "twoLorem ipsum dolor sit amet, consectetur adipiscing elit.", "threeLorem ipsum dolor sit amet, consectetur adipiscing elit.", "fourLorem ipsum dolor sit amet, consectetur adipiscing elit."]
+        title: "Arcware Streaming Project",
+        tagline: "A website to run games using arcware server",
+        previewImage: P3,
+        git: "https://github.com/piyush-jaiswal-projects/pixel-streaming--project",
+        live: "none",
+        tech: ["HTML", "CSS", "Javascript", "ReactJS", "Node", "ExpressJS", "MongoDB"],
+        description: "Thie web app registers users baed upon email otp and sends a unique link to access the gaming services. For every user, there is a limit on the duration for which user can access the service and logs out the user after that limit is reached",
+        standard: ["Login and Signup Authentication", "Email Based OTP Verification"],
+        standout: ["Integrated Arcware Game Streaming", "Server based timer to logout user while using game", "Dual Language Support"],
+        achievements: ["Learnt to use complex thirdy part APIs"]
     },
     {
         id: 4,
-        tag: "Others",
-        title: "Video Streaming App",
-        tagline: "Tagline Hu Mai",
-        previewImage: Project1,
-        git: "https://github.com/piyush-jaiswal-projects/portfolio",
-        live: "https://symphonious-praline-82b0d6.netlify.app/",
-        tech: ["HTML", "CSS", "Javascript"],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt massa eget turpis tincidunt hendrerit. Duis convallis hendrerit porttitor. Etiam finibus consectetur tempor. Suspendisse sed luctus tortor. Proin gravida viverra elit, quis luctus ex gravida non. Etiam id risus ante. Suspendisse eget eros ac velit pretium pharetra.",
-        standard: ["oneLorem ipsum dolor sit amet, consectetur adipiscing elit.", "twoLorem ipsum dolor sit amet, consectetur adipiscing elit.", "threeLorem ipsum dolor sit amet, consectetur adipiscing elit.", "fourLorem ipsum dolor sit amet, consectetur adipiscing elit.", "fiveLorem ipsum dolor sit amet, consectetur adipiscing elit."],
-        standout: ["oneLorem ipsum dolor sit amet, consectetur adipiscing elit.", "twoLorem ipsum dolor sit amet, consectetur adipiscing elit.", "threeLorem ipsum dolor sit amet, consectetur adipiscing elit."],
-        achievements: ["oneLorem ipsum dolor sit amet, consectetur adipiscing elit.", "twoLorem ipsum dolor sit amet, consectetur adipiscing elit.", "threeLorem ipsum dolor sit amet, consectetur adipiscing elit.", "fourLorem ipsum dolor sit amet, consectetur adipiscing elit."]
+        tag: "Frontend",
+        title: "Tech Startup Website",
+        tagline: "A simple website to showcase and sell products",
+        previewImage: P4,
+        git: "https://github.com/piyush-jaiswal-projects/tech-startup-website",
+        live: "https://tech-startup-website-1n82xak5t-piyush-jaiswal-projects.vercel.app/",
+        tech: ["HTML", "CSS", "Javascript", "ReactJS"],
+        description: "This website implements the frontend for a tech startup to showcase their sproducts and services. It also has a small ecommerce functionality for their customers. On top of that, it also has blog section",
+        standard: ["Authentication - Login and Signup", "Smooth user experience", "Multi route single page web app"],
+        standout: ["Frontend logic of basic Ecommerce", "UI for chatbot"],
+        achievements: []
     },
     {
         id: 5,
-        tag: "DSA",
-        title: "Video Streaming App",
-        tagline: "Tagline Hu Mai",
-        previewImage: Project1,
-        git: "https://github.com/piyush-jaiswal-projects/portfolio",
-        live: "https://symphonious-praline-82b0d6.netlify.app/",
-        tech: ["HTML", "CSS", "Javascript"],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt massa eget turpis tincidunt hendrerit. Duis convallis hendrerit porttitor. Etiam finibus consectetur tempor. Suspendisse sed luctus tortor. Proin gravida viverra elit, quis luctus ex gravida non. Etiam id risus ante. Suspendisse eget eros ac velit pretium pharetra.",
-        standard: ["oneLorem ipsum dolor sit amet, consectetur adipiscing elit.", "twoLorem ipsum dolor sit amet, consectetur adipiscing elit.", "threeLorem ipsum dolor sit amet, consectetur adipiscing elit.", "fourLorem ipsum dolor sit amet, consectetur adipiscing elit.", "fiveLorem ipsum dolor sit amet, consectetur adipiscing elit."],
-        standout: ["oneLorem ipsum dolor sit amet, consectetur adipiscing elit.", "twoLorem ipsum dolor sit amet, consectetur adipiscing elit.", "threeLorem ipsum dolor sit amet, consectetur adipiscing elit."],
-        achievements: ["oneLorem ipsum dolor sit amet, consectetur adipiscing elit.", "twoLorem ipsum dolor sit amet, consectetur adipiscing elit.", "threeLorem ipsum dolor sit amet, consectetur adipiscing elit.", "fourLorem ipsum dolor sit amet, consectetur adipiscing elit."]
-    },
-    {
-        id: 6,
-        tag: "DSA",
-        title: "Video Streaming App",
-        tagline: "Tagline Hu Mai",
-        previewImage: Project1,
-        git: "https://github.com/piyush-jaiswal-projects/portfolio",
-        live: "https://symphonious-praline-82b0d6.netlify.app/",
-        tech: ["HTML", "CSS", "Node"],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt massa eget turpis tincidunt hendrerit. Duis convallis hendrerit porttitor. Etiam finibus consectetur tempor. Suspendisse sed luctus tortor. Proin gravida viverra elit, quis luctus ex gravida non. Etiam id risus ante. Suspendisse eget eros ac velit pretium pharetra.",
-        standard: ["oneLorem ipsum dolor sit amet, consectetur adipiscing elit.", "twoLorem ipsum dolor sit amet, consectetur adipiscing elit.", "threeLorem ipsum dolor sit amet, consectetur adipiscing elit.", "fourLorem ipsum dolor sit amet, consectetur adipiscing elit.", "fiveLorem ipsum dolor sit amet, consectetur adipiscing elit."],
-        standout: ["oneLorem ipsum dolor sit amet, consectetur adipiscing elit.", "twoLorem ipsum dolor sit amet, consectetur adipiscing elit.", "threeLorem ipsum dolor sit amet, consectetur adipiscing elit."],
-        achievements: ["oneLorem ipsum dolor sit amet, consectetur adipiscing elit.", "twoLorem ipsum dolor sit amet, consectetur adipiscing elit.", "threeLorem ipsum dolor sit amet, consectetur adipiscing elit.", "fourLorem ipsum dolor sit amet, consectetur adipiscing elit."]
+        tag: "Fullstack",
+        title: "Notes Keeper Webapp",
+        tagline: "A safe place to keep all your notes",
+        previewImage: P5,
+        git: "https://github.com/piyush-jaiswal-projects/Keeper-Notes-Web-App",
+        live: "none",
+        tech: ["HTML", "CSS", "Javascript", "ReactJS", "Node", "ExpressJS", "MongoDB"],
+        description: "A simple web app to perform CRUD operations in order to maintain a collection of all your notes.",
+        standard: ["User signup and login", "Addition, deletion, updation of notes"],
+        standout: ["Live data syncing using stream", "CRUD operations on MongoDB Cloud Database"],
+        achievements: []
     }
 ]
 

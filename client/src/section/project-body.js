@@ -27,18 +27,22 @@ function Section1(props) {
                 </ol>
             </div>
 
+            {props.project.standout.length === 0 ? "" : 
             <div className="my-4">
                 <Label text="Standout Features" />
                 <ol className="list-decimal">
                     {props.project.standout.map((item) => { return <li className="text-lightblue ml-5 pl-2">{item}</li>})}
                 </ol>
-            </div>
-            <div className="my-4">
+            </div>}
+
+            {props.project.achievements.length === 0 ? "" :
+                <div className="my-4">
                 <Label text="Achievements" />
                 <ol className="list-decimal">
                     {props.project.achievements.map((item) => { return <li className="text-lightblue ml-5 pl-2">{item}</li>})}
                 </ol>
-            </div>
+                </div>}
+            
         </div>
     )
 }

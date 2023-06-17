@@ -13,7 +13,7 @@ export default function SmallCard(props) {
                 
                 <div className="flex items-center justify-center">
                     <CircularLink name="git" image={git} link={props.item.git} theme="dark"/>
-                    <CircularLink name="live" image={link} link={props.item.live} theme="dark"/>
+                    {props.item.live === "none" || "" ? "" : <CircularLink name="live" image={link} link={props.item.live} theme="dark"/>}
                 </div>
 
                 <div className="px-3">

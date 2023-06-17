@@ -12,6 +12,12 @@ export { default as ProfilePic } from './pic1.jpg';
 
 // PROJECTS PREVIEW IMAGES
 export { default as Project1 } from './projects/1.jpg';
+export { default as P1 } from './projects/1.png';
+export { default as P2 } from './projects/2.png';
+export { default as P3 } from './projects/3.png';
+export { default as P4 } from './projects/4.png';
+export { default as P5 } from './projects/5.png';
+
 
 //SOCIAL MEDIA PLATFORM
 export { default as linkedin } from './socials/linkedin.svg';
