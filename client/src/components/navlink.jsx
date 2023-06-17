@@ -25,7 +25,7 @@ function Navlink(props) {
             break;
     }
     return (
-        <div className="hover:animate-bounce inline-flex flex-col items-center text-lightblue mx-2">
+        <div className="hover:animate-bounce inline-flex flex-col items-center text-lightblue mx-2 md:mx-4">
             <a className="block" href={link} id={props.name.toLowerCase() + "navlink"}>{props.name}</a>
             {window.location.pathname === link ? <NavlinkCircle /> : ""}
         </div>
