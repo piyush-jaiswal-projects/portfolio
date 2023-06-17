@@ -7,7 +7,7 @@ import { useWindowWidth } from '../hooks'
 
 function Navbar(props) {
     return (
-        <div className="flex justify-between bg-[url('./assets/denim.png')] mix-blend-color-dodge lg:bg-none">
+        <div className="flex justify-between bg-[url('./assets/denim.png')] mix-blend-color-dodge ">
             <Logo />
             {useWindowWidth() >= 768 ? <LargeNavbar /> : <SmallNavbar />}
         </div>
@@ -26,10 +26,10 @@ function LargeNavbar() {
 
 function Menu() {
     return (
-        <div id="menu" className="small-menu animate-custom-menu text-center  shadow fixed z-[10] top-[10%] right-[5%] border border-solid border-lightblue items-center hidden">
+        <div id="menu" className="small-menu animate-custom-menu text-center  shadow fixed z-[10] top-[10%] right-[5%] w-[90vw] border border-solid border-lightblue items-center hidden">
             {navLink.map((link) => {
                 return (
-                    <div className='m-[1.5rem] sm:m-[1rem]' key={link + "key"}>
+                    <div className='p-[5px] inline-flex items-center' key={link + "key"}>
                     <NavLink name={link} />
                     </div>
                 )
@@ -47,19 +47,17 @@ function SmallNavbar() {
             $("#menu").removeClass("hidden");
             setIcon(() => <CloseIcon />);
             setState(() => "close")
-            $("#small").addClass("toggleHeight")
         }
         else {
             $("#menu").addClass("hidden");
             setIcon(() => <MenuIcon />);
             setState(() => "menu")
-            $("#small").removeClass("toggleHeight")
         }
     }
 
     return (
         <>
-        <div onClick={toggleIcon} id="small" className='h-[100px] transition duration-200'>
+        <div onClick={toggleIcon} id="small" className=''>
             {icon}
         </div>
             <Menu />
