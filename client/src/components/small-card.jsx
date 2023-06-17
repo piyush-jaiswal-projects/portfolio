@@ -3,7 +3,7 @@ import { git, link, rightArrow } from "../assets"
 
 export default function SmallCard(props) {
     return (
-        <div key={props.item.id} className="w-[80vw] sm:w-[70vw] md:w-[40vw] lg:w-[25vw] h-[70vw] sm:h-[60vw] md:h-[35vw] lg:h-[20vw] bg-lightblue shadow-lg mx-auto border border-lightblue rounded-md my-2 md:my-4">
+        <div key={props.item.id} className="popup w-[80vw] sm:w-[70vw] md:w-[40vw] lg:w-[25vw] h-[70vw] sm:h-[60vw] md:h-[35vw] lg:h-[20vw] bg-lightblue shadow-lg mx-auto border border-lightblue rounded-md my-3 md:my-4">
             
             <div className="bg-lightblue h-[50vw] sm:h-[45vw] md:h-[25vw] lg:h-[15vw] rounded-md">
                 <img className="rounded-t-md w-[80vw] sm:w-[70vw] md:w-[40vw] lg:w-[25vw] h-[50vw] sm:h-[45vw] md:h-[25vw] lg:h-[15vw]" src={props.item.previewImage} alt={props.item.title} />

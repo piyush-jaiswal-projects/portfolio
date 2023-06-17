@@ -3,7 +3,7 @@ import { LargeButton, ProjectCard, Heading, TextPara } from "../components"
 function Section1() {
     return (
         <div className="mx-auto md:flex flex-col md:w-[50vw] md:mt-[4vw]">
-            <TextPara>
+            <TextPara align="left">
             Hi, I am a software developer based out of India.
             I specialize in developing robust and scalable web application and websites.
             </TextPara>

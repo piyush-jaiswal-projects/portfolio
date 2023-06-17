@@ -12,17 +12,98 @@ body{
     animation: popup 0.1s ease;
 }
 
+.popup{
+    animation: popup 1s ease-out;
+}
+
 .toggleHeight{
-    height: 350px;
+    animation: changeHeight 0.1s ease forwards;
+}
+
+.animate-hero-text{
+    animation: hero 1.5s ease;
+}
+
+.animate-hero-btn{
+    /* height: 0; */
+    animation: hero-btn 0.5s linear forwards;
+    animation-delay: 1.5s;
+}
+
+.animate-hero-desc{
+    position: relative;
+    left: 200%;
+    animation: slide 0.5s linear forwards;
+    animation-delay: 1.5s;
+}
+
+@keyframes slide {
+    0%{
+        left: 200%;
+    }
+    50%{
+        left: 0%;
+    }
+    80%{
+        left: 10%;
+    }
+    100%{
+        left: 0%;
+    }
+}
+
+/* @keyframes hero-btn{
+    0%{
+        height: 0;
+    }
+    100%{
+        height: auto;
+    }
+} */
+
+@keyframes hero {
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes changeHeight {
+    0%{
+        height: 0;
+    }
+    100%{
+        height: 350px;
+    }
 }
 
 @keyframes popup {
     0%{
         transform: scale(0);
-        opacity: 0;
     }
     100%{
         transform: scale(1);
-        opacity: 1;
     }
+}
+
+.animate-inflate:hover{
+    animation: inflate 1s ease forwards;
+}
+
+@keyframes inflate {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+    0%{
+        transform: scale(1);
+    }
+}
+
+.inflate:hover{
+    transform: scale(1.2);
 }

@@ -59,7 +59,7 @@ function SmallNavbar() {
 
     return (
         <>
-        <div onClick={toggleIcon} id="small" className='animate-[changeHeight] transition duration-200'>
+        <div onClick={toggleIcon} id="small" className='h-[100px] transition duration-200'>
             {icon}
         </div>
             <Menu />

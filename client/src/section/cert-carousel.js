@@ -15,7 +15,7 @@ export default function TechCarousel() {
                 centerMode={true}
                 showStatus={false}
                 showIndicators={false}
-                centerSlidePercentage={30}
+                centerSlidePercentage={40}
                 showArrows={false}
                 interval={3000}
                 infiniteLoop={true}>

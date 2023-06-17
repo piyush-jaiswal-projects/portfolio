@@ -12,8 +12,8 @@ export default function CertCard(props) {
     }
 
     return (
-        <div key={props.id} className="cursor-pointer w-[25vw]" onClick={()=>{window.location.href ="/certificates/"+props.id}}>
-            <img className="object-cover" src={images} alt={props.id} />
+        <div key={props.id} className="popup transition inflate rounded-lg cursor-pointer w-[35vw]" onClick={()=>{window.location.href ="/certificates/"+props.id}}>
+            <img className="rounded-lg object-cover" src={images} alt={props.id} />
         </div>
     )
 }
