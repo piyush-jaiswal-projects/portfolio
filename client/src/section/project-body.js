@@ -71,7 +71,7 @@ function Section2(props) {
                 <br />
                 <div>
                 {props.project.tech.map((item) => {
-                    return <CircularImage name={item} />
+                    return <CircularImage name={item} label="none"/>
                 })}
                 </div>
                 </div>

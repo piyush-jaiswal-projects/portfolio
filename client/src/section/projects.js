@@ -1,8 +1,8 @@
-import { LargeButton, ProjectCard, Heading, TextPara } from "../components"
+import { LargeButton, Heading, TextPara } from "../components"
 
 function Section1() {
     return (
-        <div className="mx-auto md:flex flex-col md:w-[50vw] md:mt-[4vw]">
+        <div className="mx-auto md:inline-flex flex-col md:w-[40vw]">
             <TextPara align="left">
             Hi, I am a software developer based out of India.
             I specialize in developing robust and scalable web application and websites.
@@ -18,8 +18,9 @@ function Section1() {
 
 function Section2() {
     return (
-        <div className="flex justify-around mx-auto md:w-[50vw]">
-            <ProjectCard id={1} />
+        <div className="bg-[green] flex justify-around mx-auto md:w-[40vw]">
+            
+            
         </div>
         
     )
@@ -27,10 +28,10 @@ function Section2() {
 
 export default function Projects() {
     return (
-        <div className="w-[90vw] mx-auto">
+        <div className="w-[80vw] mx-auto bg-[red] ">
             <Heading text="Projects" />
 
-            <div className="block md:flex mx-auto w-[90vw]">
+            <div className="block md:flex md:justify-center mx-auto w-[80vw]">
                 <Section1 />
                 <Section2 />
             </div>

@@ -32,8 +32,7 @@ export default function CircularImage(props) {
             <div className="w-[55px] h-[55px] rounded-full inline-flex justify-around items-center mx-[5px] bg-lightblue">
               <img className=" w-[40px] h-[40px]" src={img} alt={props.name} />
             </div>
-            <br />
-            <Label text={props.name} />
+            {props.label === "none" ? "" :<><br /> <Label text={props.name} /></>}
         </>
     )
 }

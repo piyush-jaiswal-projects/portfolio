@@ -1,8 +1,8 @@
 import { useParams } from "react-router-dom"
 import { Landing } from "../section";
+import { blogs } from "../data";
 
 export default function BlogPage() {
-    var blogs = [];
 
     const id = useParams().blogId;
     const blog = blogs.filter((obj)=> obj.id === Number(id))[0]

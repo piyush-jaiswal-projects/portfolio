@@ -56,7 +56,7 @@ const projects = [
     {
         id: 2,
         tag: "Backend",
-        title: "Video Streaming App",
+        title: "Video Streaming App 2",
         tagline: "Tagline Hu Mai",
         previewImage: Project1,
         git: "https://github.com/piyush-jaiswal-projects/portfolio",
@@ -70,7 +70,7 @@ const projects = [
     {
         id: 3,
         tag: "Fullstack",
-        title: "Video Streaming App",
+        title: "Video Streaming App 3",
         tagline: "Tagline Hu Mai",
         previewImage: Project1,
         git: "https://github.com/piyush-jaiswal-projects/portfolio",
@@ -253,6 +253,28 @@ const experiences = [
     }
 ] 
 
+const blogs = [{
+    id: 1,
+    title: "Software Development 101",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vehicula, tortor sit amet fringilla tincidunt, nisi libero varius nunc, vel consequat nunc mauris ac nibh. Praesent sit amet sollicitudin turpis. Aenean tempus tellus id turpis dapibus mattis. Nullam vitae hendrerit nunc. Nam in est a ipsum varius convallis sed quis ex. Quisque placerat vestibulum metus sit amet dapibus. Donec vulputate faucibus eros nec rutrum. Vestibulum non velit erat. In sodales accumsan mi quis ultricies. Pellentesque auctor sem tincidunt turpis fermentum, in posuere diam dictum. Nullam efficitur purus eu leo ornare dapibus. Integer augue nunc, blandit vulputate volutpat sit amet, lobortis ac tortor. Cras in sem interdum odio consequat tristique a ac nisl. Sed nec lectus magna.",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vehicula, tortor sit amet fringilla tincidunt, nisi libero varius nunc, vel consequat nunc mauris ac nibh. Praesent sit amet sollicitudin turpis. Aenean tempus tellus id turpis dapibus mattis. Nullam vitae hendrerit nunc. Nam in est a ipsum varius convallis sed quis ex. Quisque placerat vestibulum metus sit amet dapibus. Donec vulputate faucibus eros nec rutrum. Vestibulum non velit erat. In sodales accumsan mi quis ultricies. Pellentesque auctor sem tincidunt turpis fermentum, in posuere diam dictum. Nullam efficitur purus eu leo ornare dapibus. Integer augue nunc, blandit vulputate volutpat sit amet, lobortis ac tortor. Cras in sem interdum odio consequat tristique a ac nisl. Sed nec lectus magna.",
+    imageName: "Project1"
+},
+{
+    id: 2,
+    title: "Software Development 101",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vehicula, tortor sit amet fringilla tincidunt, nisi libero varius nunc, vel consequat nunc mauris ac nibh. Praesent sit amet sollicitudin turpis. Aenean tempus tellus id turpis dapibus mattis. Nullam vitae hendrerit nunc. Nam in est a ipsum varius convallis sed quis ex. Quisque placerat vestibulum metus sit amet dapibus. Donec vulputate faucibus eros nec rutrum. Vestibulum non velit erat. In sodales accumsan mi quis ultricies. Pellentesque auctor sem tincidunt turpis fermentum, in posuere diam dictum. Nullam efficitur purus eu leo ornare dapibus. Integer augue nunc, blandit vulputate volutpat sit amet, lobortis ac tortor. Cras in sem interdum odio consequat tristique a ac nisl. Sed nec lectus magna.",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vehicula, tortor sit amet fringilla tincidunt, nisi libero varius nunc, vel consequat nunc mauris ac nibh. Praesent sit amet sollicitudin turpis. Aenean tempus tellus id turpis dapibus mattis. Nullam vitae hendrerit nunc. Nam in est a ipsum varius convallis sed quis ex. Quisque placerat vestibulum metus sit amet dapibus. Donec vulputate faucibus eros nec rutrum. Vestibulum non velit erat. In sodales accumsan mi quis ultricies. Pellentesque auctor sem tincidunt turpis fermentum, in posuere diam dictum. Nullam efficitur purus eu leo ornare dapibus. Integer augue nunc, blandit vulputate volutpat sit amet, lobortis ac tortor. Cras in sem interdum odio consequat tristique a ac nisl. Sed nec lectus magna.",
+    imageName: "Project1"
+},
+{
+    id: 3,
+    title: "Software Development 101",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vehicula, tortor sit amet fringilla tincidunt, nisi libero varius nunc, vel consequat nunc mauris ac nibh. Praesent sit amet sollicitudin turpis. Aenean tempus tellus id turpis dapibus mattis. Nullam vitae hendrerit nunc. Nam in est a ipsum varius convallis sed quis ex. Quisque placerat vestibulum metus sit amet dapibus. Donec vulputate faucibus eros nec rutrum. Vestibulum non velit erat. In sodales accumsan mi quis ultricies. Pellentesque auctor sem tincidunt turpis fermentum, in posuere diam dictum. Nullam efficitur purus eu leo ornare dapibus. Integer augue nunc, blandit vulputate volutpat sit amet, lobortis ac tortor. Cras in sem interdum odio consequat tristique a ac nisl. Sed nec lectus magna.",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vehicula, tortor sit amet fringilla tincidunt, nisi libero varius nunc, vel consequat nunc mauris ac nibh. Praesent sit amet sollicitudin turpis. Aenean tempus tellus id turpis dapibus mattis. Nullam vitae hendrerit nunc. Nam in est a ipsum varius convallis sed quis ex. Quisque placerat vestibulum metus sit amet dapibus. Donec vulputate faucibus eros nec rutrum. Vestibulum non velit erat. In sodales accumsan mi quis ultricies. Pellentesque auctor sem tincidunt turpis fermentum, in posuere diam dictum. Nullam efficitur purus eu leo ornare dapibus. Integer augue nunc, blandit vulputate volutpat sit amet, lobortis ac tortor. Cras in sem interdum odio consequat tristique a ac nisl. Sed nec lectus magna.",
+    imageName: "Project1"
+}];
+
 export {
     navLink,
     heroText,
@@ -267,5 +289,6 @@ export {
     certificates,
     notes,
     experiences,
-    blogAPIKey
+    blogAPIKey, 
+    blogs
 };

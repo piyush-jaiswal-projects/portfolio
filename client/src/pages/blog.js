@@ -3,7 +3,7 @@ import { Landing, BlogBody } from "../section";
 function Blog() {
     return (
         <>
-            <Landing type="page" />
+            <Landing type="page" /> 
             <BlogBody />
         </>
     )
