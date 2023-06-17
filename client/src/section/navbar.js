@@ -7,7 +7,7 @@ import { useWindowWidth } from '../hooks'
 
 function Navbar(props) {
     return (
-        <div className="flex justify-between bg-[url('./assets/denim.png')] mix-blend-color-dodge ">
+        <div className="flex justify-between bg-[url('./assets/denim.png')] mix-blend-color-dodge">
             <Logo />
             {useWindowWidth() >= 768 ? <LargeNavbar /> : <SmallNavbar />}
         </div>
@@ -26,12 +26,14 @@ function LargeNavbar() {
 
 function Menu() {
     return (
-        <div id="menu" className="small-menu animate-custom-menu text-center  shadow fixed z-[10] top-[10%] right-[5%] w-[90vw] border border-solid border-lightblue items-center hidden">
+        <div id="menu" className="bg-darkblue small-menu animate-custom-menu text-center shadow fixed z-[10] top-[10%] right-[5%] w-[100vw] h-auto border border-solid border-lightblue mx-auto items-center hidden">
             {navLink.map((link) => {
                 return (
-                    <div className='p-[5px] inline-flex items-center' key={link + "key"}>
+                    <>
+                    <div className='px-[5px] py-[2px] text-left inline-flex items-center' key={link + "key"}>
                     <NavLink name={link} />
                     </div>
+                    </>
                 )
             })}
         </div>
@@ -59,8 +61,8 @@ function SmallNavbar() {
         <>
         <div onClick={toggleIcon} id="small" className=''>
             {icon}
-        </div>
             <Menu />
+        </div>
         </>
     )
 }
