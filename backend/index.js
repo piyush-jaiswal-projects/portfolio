@@ -22,6 +22,10 @@ const corsOptions = {
 const port = 7001;
 const apiKey = "qgAaSN1FJw1RNtct8UF97t5t";
 
+app.get('/', (req, res) => {
+  res.send("<h1>Portfolio Server</h1>")
+})
+
 
 app.get('/articles', (req, res) => {
     axios.get(url, {
