@@ -5,8 +5,6 @@ function Home() {
     return (
         <>
             <Landing type="page" /> 
-            <AboutMe />
-            <FeedbackForm title="Send Me a Mail" desc="" id="Message"/>
             <Connect />
         </>
     );
