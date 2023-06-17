@@ -8,8 +8,9 @@ body{
 }
 
 .animate-custom-menu{
+    background-color: #0B2447;
     opacity: 1;
-    animation: popup 0.1s ease;
+    animation: popup 0.5s ease;
 }
 
 .popup{
