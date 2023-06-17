@@ -1,5 +1,4 @@
 import { Project1 } from "./assets";
-// import { GetPost } from "./functions";
 
 const developerMailId = "developerpiyush1610@gmail.com";
 const Linkedin = "https://www.linkedin.com/in/piyushjaiswal1610/";
@@ -217,31 +216,6 @@ const certificates = [{
 
 const notes = [{id: 1, title: "Operating System", desc: "Desc hu mai", url:"https://drive.google.com/file/d/1CuML95JJqIh_V9NdrNYh00bqO7QvKoiw/preview", src: "https://tailwindcss.com/docs/scale"}, {id: 2, title: "Operating System", desc: "Desc 2 hu mai", url:"", src: "https://tailwindcss.com/docs/scale"}, {id: 1, title: "Operating System", url:"https://github.com/piyush-jaiswal-projects/react-hooks/blob/master/src/hooks/ContextAPI.js", src: "https://tailwindcss.com/docs/scale"}, {id: 1, title: "Operating System", url:"https://github.com/piyush-jaiswal-projects/react-hooks/blob/master/src/hooks/ContextAPI.js", src: "https://tailwindcss.com/docs/scale"}, {id: 1, title: "Operating System", url:"https://github.com/piyush-jaiswal-projects/react-hooks/blob/master/src/hooks/ContextAPI.js", src: "https://tailwindcss.com/docs/scale"},{id: 1, title: "Operating System", url:"https://github.com/piyush-jaiswal-projects/react-hooks/blob/master/src/hooks/ContextAPI.js", src: "https://tailwindcss.com/docs/scale"}, {id: 1, title: "Operating System", url:"https://github.com/piyush-jaiswal-projects/react-hooks/blob/master/src/hooks/ContextAPI.js", src: "https://tailwindcss.com/docs/scale"}, {id: 1, title: "Operating System", url:"https://github.com/piyush-jaiswal-projects/react-hooks/blob/master/src/hooks/ContextAPI.js", src: "https://tailwindcss.com/docs/scale"}, {id: 1, title: "Operating System", url:"https://github.com/piyush-jaiswal-projects/react-hooks/blob/master/src/hooks/ContextAPI.js", src: "https://tailwindcss.com/docs/scale"}, {id: 1, title: "Operating System", url:"https://github.com/piyush-jaiswal-projects/react-hooks/blob/master/src/hooks/ContextAPI.js", src: "https://tailwindcss.com/docs/scale"}]
 
-const blogs = [{
-    id: 1,
-    title: "Software Development 101",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vehicula, tortor sit amet fringilla tincidunt, nisi libero varius nunc, vel consequat nunc mauris ac nibh. Praesent sit amet sollicitudin turpis. Aenean tempus tellus id turpis dapibus mattis. Nullam vitae hendrerit nunc. Nam in est a ipsum varius convallis sed quis ex. Quisque placerat vestibulum metus sit amet dapibus. Donec vulputate faucibus eros nec rutrum. Vestibulum non velit erat. In sodales accumsan mi quis ultricies. Pellentesque auctor sem tincidunt turpis fermentum, in posuere diam dictum. Nullam efficitur purus eu leo ornare dapibus. Integer augue nunc, blandit vulputate volutpat sit amet, lobortis ac tortor. Cras in sem interdum odio consequat tristique a ac nisl. Sed nec lectus magna.",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vehicula, tortor sit amet fringilla tincidunt, nisi libero varius nunc, vel consequat nunc mauris ac nibh. Praesent sit amet sollicitudin turpis. Aenean tempus tellus id turpis dapibus mattis. Nullam vitae hendrerit nunc. Nam in est a ipsum varius convallis sed quis ex. Quisque placerat vestibulum metus sit amet dapibus. Donec vulputate faucibus eros nec rutrum. Vestibulum non velit erat. In sodales accumsan mi quis ultricies. Pellentesque auctor sem tincidunt turpis fermentum, in posuere diam dictum. Nullam efficitur purus eu leo ornare dapibus. Integer augue nunc, blandit vulputate volutpat sit amet, lobortis ac tortor. Cras in sem interdum odio consequat tristique a ac nisl. Sed nec lectus magna.",
-    imageName: "Project1"
-},
-{
-    id: 2,
-    title: "Software Development 101",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vehicula, tortor sit amet fringilla tincidunt, nisi libero varius nunc, vel consequat nunc mauris ac nibh. Praesent sit amet sollicitudin turpis. Aenean tempus tellus id turpis dapibus mattis. Nullam vitae hendrerit nunc. Nam in est a ipsum varius convallis sed quis ex. Quisque placerat vestibulum metus sit amet dapibus. Donec vulputate faucibus eros nec rutrum. Vestibulum non velit erat. In sodales accumsan mi quis ultricies. Pellentesque auctor sem tincidunt turpis fermentum, in posuere diam dictum. Nullam efficitur purus eu leo ornare dapibus. Integer augue nunc, blandit vulputate volutpat sit amet, lobortis ac tortor. Cras in sem interdum odio consequat tristique a ac nisl. Sed nec lectus magna.",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vehicula, tortor sit amet fringilla tincidunt, nisi libero varius nunc, vel consequat nunc mauris ac nibh. Praesent sit amet sollicitudin turpis. Aenean tempus tellus id turpis dapibus mattis. Nullam vitae hendrerit nunc. Nam in est a ipsum varius convallis sed quis ex. Quisque placerat vestibulum metus sit amet dapibus. Donec vulputate faucibus eros nec rutrum. Vestibulum non velit erat. In sodales accumsan mi quis ultricies. Pellentesque auctor sem tincidunt turpis fermentum, in posuere diam dictum. Nullam efficitur purus eu leo ornare dapibus. Integer augue nunc, blandit vulputate volutpat sit amet, lobortis ac tortor. Cras in sem interdum odio consequat tristique a ac nisl. Sed nec lectus magna.",
-    imageName: "Project1"
-    },
-    {
-        id: 3,
-        title: "Software Development 101",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vehicula, tortor sit amet fringilla tincidunt, nisi libero varius nunc, vel consequat nunc mauris ac nibh. Praesent sit amet sollicitudin turpis. Aenean tempus tellus id turpis dapibus mattis. Nullam vitae hendrerit nunc. Nam in est a ipsum varius convallis sed quis ex. Quisque placerat vestibulum metus sit amet dapibus. Donec vulputate faucibus eros nec rutrum. Vestibulum non velit erat. In sodales accumsan mi quis ultricies. Pellentesque auctor sem tincidunt turpis fermentum, in posuere diam dictum. Nullam efficitur purus eu leo ornare dapibus. Integer augue nunc, blandit vulputate volutpat sit amet, lobortis ac tortor. Cras in sem interdum odio consequat tristique a ac nisl. Sed nec lectus magna.",
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vehicula, tortor sit amet fringilla tincidunt, nisi libero varius nunc, vel consequat nunc mauris ac nibh. Praesent sit amet sollicitudin turpis. Aenean tempus tellus id turpis dapibus mattis. Nullam vitae hendrerit nunc. Nam in est a ipsum varius convallis sed quis ex. Quisque placerat vestibulum metus sit amet dapibus. Donec vulputate faucibus eros nec rutrum. Vestibulum non velit erat. In sodales accumsan mi quis ultricies. Pellentesque auctor sem tincidunt turpis fermentum, in posuere diam dictum. Nullam efficitur purus eu leo ornare dapibus. Integer augue nunc, blandit vulputate volutpat sit amet, lobortis ac tortor. Cras in sem interdum odio consequat tristique a ac nisl. Sed nec lectus magna.",
-        imageName: "Project1"
-    }]
-
-// GetPost();
-
-
 const experiences = [
     {
         id: 1,
@@ -292,7 +266,6 @@ export {
     techStacks,
     certificates,
     notes,
-    blogs,
     experiences,
     blogAPIKey
 };

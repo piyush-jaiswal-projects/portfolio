@@ -1,6 +1,7 @@
 import { Project1 } from "../assets";
 
 export default function BlogCard(props) {
+    console.log("-----"+props);
     var image;
     switch (props.blog.imageName) {
         case "Project1":

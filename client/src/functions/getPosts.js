@@ -1,12 +1,7 @@
-import { blogAPIKey } from "../data";
+import axios from "axios"
 
-function getPosts() {
-    fetch('https://dev.to/api/articles/me', {
-  headers: {
-            'api-key': blogAPIKey
-  }
-})
-  .then(response => response.json())
+export default function GetPosts() {
+    axios.get('http://localhost:7001/articles')
   .then(data => {
     // Handle the returned data here
     console.log(data);
@@ -16,6 +11,3 @@ function getPosts() {
     console.error(error);
   });
 }
-
-
-export default getPosts;
