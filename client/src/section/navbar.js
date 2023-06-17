@@ -26,9 +26,13 @@ function LargeNavbar() {
 
 function Menu() {
     return (
-        <div id="menu" className="animate-custom-menu text-center bg-darkblue shadow fixed top-[10%] right-[5%] z-10 border border-solid border-lightblue items-center hidden">
+        <div id="menu" className="small-menu animate-custom-menu text-center  shadow fixed z-[10] top-[10%] right-[5%] border border-solid border-lightblue items-center hidden">
             {navLink.map((link) => {
-                return <div className='m-[1.5rem] sm:m-[1rem]' key={link + "key"}><NavLink name={link} /></div>
+                return (
+                    <div className='m-[1.5rem] sm:m-[1rem]' key={link + "key"}>
+                    <NavLink name={link} />
+                    </div>
+                )
             })}
         </div>
     )
@@ -42,18 +46,20 @@ function SmallNavbar() {
         if (state === "menu") {
             $("#menu").removeClass("hidden");
             setIcon(() => <CloseIcon />);
-            setState(()=>"close")
+            setState(() => "close")
+            $("#small").addClass("toggleHeight")
         }
         else {
             $("#menu").addClass("hidden");
             setIcon(() => <MenuIcon />);
-            setState(()=>"menu")
+            setState(() => "menu")
+            $("#small").removeClass("toggleHeight")
         }
     }
 
     return (
         <>
-        <div onClick={toggleIcon}>
+        <div onClick={toggleIcon} id="small" className='animate-[changeHeight] transition duration-200'>
             {icon}
         </div>
             <Menu />

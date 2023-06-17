@@ -12,6 +12,10 @@ body{
     animation: popup 0.1s ease;
 }
 
+.toggleHeight{
+    height: 350px;
+}
+
 @keyframes popup {
     0%{
         transform: scale(0);
