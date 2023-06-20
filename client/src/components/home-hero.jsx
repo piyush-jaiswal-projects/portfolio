@@ -1,5 +1,6 @@
 import Button from "./button";
 import { ScrollToDiv, SendMail } from "../functions";
+import Label from "./label";
 
 function HomeHero() {
 
