@@ -10,12 +10,14 @@ export default function NotePage(props) {
     return (
         <>
             <Landing type="notes" title={note.title} desc={note.desc} />
+            <div className="bg-darkblue">
             <div className="text-right mx-5 my-4">
                 <Button text="Download PDF" actionType="function" function={()=>{DownloadFile(note.url)}} />
                 <Button text="Study Source" actionType="redirect" url={note.src} />
             </div>
             <div>
                 <PDFviewer fileURL={note.url} title={note.title} />
+            </div>
             </div>
         </>
     )

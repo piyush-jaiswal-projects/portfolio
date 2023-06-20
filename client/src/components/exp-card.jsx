@@ -12,12 +12,12 @@ export default function ExpCard(props) {
             </div>
 
             <div className=" lg:w-[70%] p-4">
-                <h2 className="text-lightblue text-[140%]">{exp.org}</h2>
+                <h2 className="text-white text-[140%]">{exp.org}</h2>
                 <h4 className="text-[#808080] text-[110%]">{exp.position}</h4>
-                <p className="leading-tight text-dullblue">{exp.desc}</p>
+                <p className="leading-tight text-grey">{exp.desc}</p>
                 {exp.url
                     ?
-                    <a href={exp.url} target="__blank" className="flex">
+                    <a href={exp.url} target="__blank" className="flex text-white my-2">
                     <img src={link} alt="" className="mr-1" />
                     {exp.url}
                     </a>
@@ -39,7 +39,7 @@ export default function ExpCard(props) {
 
 function TechCard(props) {
     return (
-        <div key={props.id} className="inline-block rounded-xl m-1 w-auto p-1 bg-dullblue">
+        <div key={props.id} className="inline-block rounded-xl m-1 w-auto p-1 bg-white">
             <p>{props.tech}</p>
         </div>
     )

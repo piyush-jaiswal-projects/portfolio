@@ -3,13 +3,14 @@
 @tailwind utilities;
 
 body{
+    background-color: #27374D;
     overflow-x: hidden;
     font-family: 'Source Code Pro', monospace;
     cursor: default;
 }
 
 .animate-custom-menu{
-    background-color: #000000;
+    background-color: #27374D;
     opacity: 1;
     animation: popup 0.5s ease;
 }

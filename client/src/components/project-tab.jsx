@@ -17,7 +17,7 @@ export default function Tab() {
     }
 
     return (
-        <div className="text-center border-t border-b border-lightblue flex items-center justify-around flex-wrap flex-row w-[90vw] mx-auto">
+        <div className="text-center border-t border-b border-white flex items-center justify-around flex-wrap flex-row w-[90vw] mx-auto">
             {buttons.map((button) => {
                 return <TabButton text={button} function={() => changeCategory(button)} />
             })}
@@ -28,7 +28,7 @@ export default function Tab() {
 
 function TabButton(props) {
     return (
-        <button onClick={props.function} className=" w-[12vw] inline-flex justify-center cursor-pointer py-[10px] text-lightblue text-[3vw] md:text-[2.2vw] lg:text-[1.5vw]">
+        <button onClick={props.function} className=" w-[12vw] inline-flex justify-center cursor-pointer py-[10px] text-white text-[3vw] md:text-[2.2vw] lg:text-[1.5vw]">
             {props.text}
         </button>
     )

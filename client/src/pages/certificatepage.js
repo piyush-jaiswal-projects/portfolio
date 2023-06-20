@@ -8,8 +8,10 @@ export default function CertificatePage() {
     return (
         <>
             <Landing type="cert" title={cert.title} desc={cert.desc} />
+            <div className="bg-darkblue">
             <CertBody cert={cert} /> 
             <Connect />
+            </div>
         </>
     )
 }

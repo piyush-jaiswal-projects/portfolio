@@ -7,7 +7,7 @@ export default function Connect(props) {
     const MailURL = `mailto:${encodeURIComponent(developerMailId)}?subject=${encodeURIComponent("Let's Connect")}&body=${encodeURIComponent("")}`;
     
     return (
-        <div id="Connect" className="bg-darkblueThree text-center mx-auto py-[2vw]">
+        <div id="Connect" className="bg-darkblueThree text-center text-white mx-auto py-[2vw]">
             <Heading text="Let's Connect" />
 
             <div>

@@ -10,7 +10,7 @@ export default function CertBody(props) {
             <div className="w-[90vw] mx-auto py-10">
                 <Label text="Program Outcomes" />
                 <br/>
-                <p className="leading-tight text-lightblue ">{props.cert.outcomes}</p>
+                <p className="leading-tight text-grey ">{props.cert.outcomes}</p>
             </div>
         </div>
     )

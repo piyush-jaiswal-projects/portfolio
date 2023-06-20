@@ -4,7 +4,7 @@ import { ScrollToDiv, SendMail } from "../functions";
 function HomeHero() {
 
     return (
-        <div className="h-[65vh] sm:h-[75vh] flex items-start sm:items-center">
+        <div className="h-[65vh] sm:h-[75vh] flex items-start sm:items-center bg-white">
             
             <div className="text-center md:text-left w-[90vw] sm:w-[80vw] md:w-[60vw] lg:w-[45vw] h-[50%] m-auto md:ml-[10vw] mt-[10vw]">
                 
@@ -15,7 +15,7 @@ function HomeHero() {
 
                 <div className="animate-hero-btn p-0  mt-[3vw] md:mt-[1.5vw]">
                     <Button text="Hire Me" function={()=>SendMail("Hiring Inquiry", "")} />
-                    <Button text="Get in touch" function={() => {
+                    <Button text="Connect" function={() => {
                         ScrollToDiv("Connect");
                         document.getElementById("Connect").focus();
                     } } />

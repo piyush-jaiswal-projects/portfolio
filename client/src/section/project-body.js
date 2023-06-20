@@ -13,33 +13,33 @@ function Section1(props) {
     return (
         <div className="lg:w-[45vw] flex flex-wrap my-8">
             
-            <div className="my-4 block">
+            <div className="my-4 block w-[100%]">
                 <Label text="Description" />
-                <p className="text-lightblue leading-tight text-left">
+                <p className="text-white leading-tight text-left">
                     {props.project.description}
                 </p>
             </div>
 
-            <div className="my-4">
+            <div className="my-4 w-[100%]">
                 <Label text="Standard Features" />
                 <ol className="list-decimal">
-                    {props.project.standard.map((item) => { return <li className="text-lightblue ml-5 pl-2">{item}</li>})}
+                    {props.project.standard.map((item) => { return <li className="text-white ml-5 pl-2">{item}</li>})}
                 </ol>
             </div>
 
             {props.project.standout.length === 0 ? "" : 
-            <div className="my-4">
+            <div className="my-4 w-[100%]">
                 <Label text="Standout Features" />
                 <ol className="list-decimal">
-                    {props.project.standout.map((item) => { return <li className="text-lightblue ml-5 pl-2">{item}</li>})}
+                    {props.project.standout.map((item) => { return <li className="text-white ml-5 pl-2">{item}</li>})}
                 </ol>
             </div>}
 
             {props.project.achievements.length === 0 ? "" :
-                <div className="my-4">
+                <div className="my-4 w-[100%]">
                 <Label text="Achievements" />
                 <ol className="list-decimal">
-                    {props.project.achievements.map((item) => { return <li className="text-lightblue ml-5 pl-2">{item}</li>})}
+                    {props.project.achievements.map((item) => { return <li className="text-white ml-5 pl-2">{item}</li>})}
                 </ol>
                 </div>}
             
@@ -60,13 +60,13 @@ function Section2(props) {
             <div className="my-4 lg:w-[40vw]">
                 <label className="text-[#808080]">Github</label>
                 <br />
-                <a className="text-dullblue lg:text-[1.5vw]" href={props.project.git} >{props.project.git}</a>
+                <a className="text-grey lg:text-[1.5vw]" href={props.project.git} >{props.project.git}</a>
             </div>
 
             <div className="my-4 lg:w-[40vw]">
             <label className="text-[#808080]">Live Project</label>
                 <br />
-                <a className="text-dullblue lg:text-[1.5vw]" href={props.project.live} >{props.project.live}</a>
+                <a className="text-grey lg:text-[1.5vw]" href={props.project.live} >{props.project.live}</a>
             </div>
 
 

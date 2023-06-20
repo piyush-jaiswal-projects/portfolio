@@ -24,12 +24,14 @@ module.exports = {
       },
       colors: {
         transparent: 'transparent',
-        darkblue: '#393E46',
-        darkblueTwo: '#929AAB',
-        darkblueThree: '#9DB2BF',
+        darkblue: '#27374D',
+        darkblueTwo: '#526D82',
+        darkblueThree: '#27374E',
         white: '#D9D9D9',
+        lightblue: '#27374D',
+        dullblue: '#27374D',
         grey: '#928E8E'
-      }
+      },
     },
     plugins: [],
   }

@@ -7,7 +7,7 @@ import { useWindowWidth } from '../hooks'
 
 function Navbar(props) {
     return (
-        <div className="flex h-[140px] md:h-auto justify-between ">
+        <div className="flex h-[140px] md:h-auto justify-between bg-white">
             <Logo />
             {useWindowWidth() >= 768 ? <LargeNavbar /> : <SmallNavbar />}
         </div>

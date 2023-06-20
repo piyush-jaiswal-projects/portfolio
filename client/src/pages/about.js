@@ -13,13 +13,15 @@ function About() {
     return (
         <>
             <Landing type="page" />
+            <div className="bg-darkblue">
             <Introduction />
             <TechCarousel />
             <Story />
             <CertCarousel />
             <StudyNotes />
             <FeedbackForm title="Wanna say something?" desc="" id="Message"/>
-            <Connect />    
+            <Connect />   
+            </div> 
         </>
     )
 }
