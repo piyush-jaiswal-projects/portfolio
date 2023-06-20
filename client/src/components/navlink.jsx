@@ -25,8 +25,8 @@ function Navlink(props) {
             break;
     }
     return (
-        <div className=" inline-flex flex-col items-center text-lightblue mx-2 md:mx-4">
-            <a className="block" href={link} id={props.name.toLowerCase() + "navlink"}>{props.name}</a>
+        <div className=" inline-flex flex-col items-center mx-2 md:mx-4">
+            <a className={props.theme === "light" ? "block text-white" : "block text-darkblue"} href={link} id={props.name.toLowerCase() + "navlink"}>{props.name}</a>
             {window.location.pathname === link ? <NavlinkCircle /> : ""}
         </div>
     )

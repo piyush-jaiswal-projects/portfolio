@@ -26,12 +26,12 @@ function LargeNavbar() {
 
 function Menu() {
     return (
-        <div id="menu" className="animate-width rounded-lg small-menu animate-custom-menu text-center shadow fixed z-[10] top-[10%] left-[0] border border-solid border-lightblue mx-auto items-center hidden">
+        <div id="menu" className="animate-width text-white rounded-lg small-menu animate-custom-menu text-center shadow fixed z-[10] top-[10%] left-[0] border border-solid border-lightblue mx-auto items-center hidden">
             {navLink.map((link) => {
                 return (
                     <>
-                    <div className='px-[5px] py-[2px] text-left inline-flex items-center' key={link + "key"}>
-                    <NavLink name={link} />
+                    <div className='px-[5px] py-[2px] text-left text-white inline-flex items-center' key={link + "key"}>
+                    <NavLink name={link} theme="light" />
                     </div>
                     </>
                 )
