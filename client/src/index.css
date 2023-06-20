@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 body{
-    background-color: #000000;
     overflow-x: hidden;
     font-family: 'Source Code Pro', monospace;
     cursor: default;
