@@ -3,7 +3,7 @@ import { Data } from "../section/project-grid";
 import { projects } from "../data";
 
 export default function Tab() {
-    const buttons = ["All", "Frontend", "Backend", "Fullstack", "DSA", "Others"];
+    const buttons = ["All", "Frontend", "Backend", "Fullstack"];
     const data = useContext(Data);
 
     function changeCategory(category) {
