@@ -14,12 +14,12 @@ function About() {
         <>
             <Landing type="page" />
             <div className="bg-darkblue">
-            <Introduction />
+            {/* <Introduction /> */}
             <TechCarousel />
             <Story />
             <CertCarousel />
-            <StudyNotes />
-            <FeedbackForm title="Wanna say something?" desc="" id="Message"/>
+            {/* <StudyNotes /> */}
+            {/* <FeedbackForm title="Wanna say something?" desc="" id="Message"/> */}
             <Connect />   
             </div> 
         </>

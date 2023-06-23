@@ -15,14 +15,14 @@ export default function TechCarousel() {
                 centerMode={true}
                 showStatus={false}
                 showIndicators={false}
-                centerSlidePercentage={40}
+                centerSlidePercentage={30}
                 showArrows={false}
                 interval={3000}
                 infiniteLoop={true}>
 
                 {certificates.map((cert) => {
                 return (
-                    <CertificateCard id={cert.id} title={cert.title} />
+                    <CertificateCard id={cert.id} url={cert.url} title={cert.title} />
                 )
                 })}
                 

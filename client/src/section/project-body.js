@@ -2,7 +2,7 @@ import { Label, CircularImage } from "../components"
 
 export default function ProjectBody(props) {
     return (
-        <div className="bg-darkblue flex w-[90vw] mx-auto flex-wrap justify-around">
+        <div className="bg-darkblue flex w-[90vw] mx-auto flex-wrap justify-center">
             <Section1 project={props.project} />
             <Section2 project={props.project} />
         </div>
@@ -11,7 +11,7 @@ export default function ProjectBody(props) {
 
 function Section1(props) {
     return (
-        <div className="lg:w-[45vw] flex flex-wrap my-8">
+        <div className="lg:w-[35vw] flex flex-wrap my-8 ">
             
             <div className="my-4 block w-[100%]">
                 <Label text="Description" />
@@ -49,7 +49,7 @@ function Section1(props) {
 
 function Section2(props) {
     return (
-        <div className="lg:w-[40vw] mx-auto my-5 lg:border md:border-l-0 lg:border-l-2 lg:border-l-lightblue lg:border-t-0 lg:border-r-0 lg:border-b-0">
+        <div className="lg:w-[35vw] my-5 lg:border md:border-l-0 lg:border-l-2 lg:border-l-lightblue lg:border-t-0 lg:border-r-0 lg:border-b-0">
 
             <div className="mx-auto w-[80vw] lg:w-[25vw] lg:ml-24 lg:mt-10 rounded-lg">
                 <img className="rounded-lg" src={props.project.previewImage} alt={props.project.title} />

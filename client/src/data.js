@@ -44,7 +44,7 @@ const projects = [
         tag: "Frontend",
         title: "Portfolio Website",
         tagline: "A personal portfolio website",
-        previewImage: P1,
+        previewImage: "http://res.cloudinary.com/deo80u7qs/image/upload/v1687527457/udvj8q8zcgy4p7bo5vvr.png",
         git: "https://github.com/piyush-jaiswal-projects/portfolio",
         live: "https://portfolio1610.vercel.app/",
         tech: ["ReactJS", "CSS", "Javascript", "HTML", "Docker"],
@@ -58,7 +58,7 @@ const projects = [
         tag: "Backend",
         title: "Arduino IOT Device Monitoring",
         tagline: "Live data monitoring",
-        previewImage: P2,
+        previewImage: "http://res.cloudinary.com/deo80u7qs/image/upload/v1687527408/u6u1dkwdxpyoebwfqdyv.png",
         git: "https://github.com/piyush-jaiswal-projects/arduino-nodejs-react-realtime-dashboard",
         live: "https://dreamy-dodol-f0c20f.netlify.app/",
         tech: ["Node", "ExpressJS", "Javascript"],
@@ -86,9 +86,9 @@ const projects = [
         tag: "Frontend",
         title: "Tech Startup Website",
         tagline: "A simple website to showcase and sell products",
-        previewImage: P4,
+        previewImage: "http://res.cloudinary.com/deo80u7qs/image/upload/v1687527266/hhfqxjn3esc3avi3qfdp.png",
         git: "https://github.com/piyush-jaiswal-projects/tech-startup-website",
-        live: "https://tech-startup-website-1n82xak5t-piyush-jaiswal-projects.vercel.app/",
+        live: "https://tech-startup-website.vercel.app/",
         tech: ["HTML", "CSS", "Javascript", "ReactJS"],
         description: "This website implements the frontend for a tech startup to showcase their sproducts and services. It also has a small ecommerce functionality for their customers. On top of that, it also has blog section",
         standard: ["Authentication - Login and Signup", "Smooth user experience", "Multi route single page web app"],
@@ -108,6 +108,20 @@ const projects = [
         standard: ["User signup and login", "Addition, deletion, updation of notes"],
         standout: ["Live data syncing using stream", "CRUD operations on MongoDB Cloud Database"],
         achievements: []
+    },
+    {
+        id: 6,
+        tag: "Frontend",
+        title: "Cloudinary Image Uploader",
+        tagline: "Simplify the way you upload images to cloudinary",
+        previewImage: "http://res.cloudinary.com/deo80u7qs/image/upload/v1687527164/fcmvikxkngoy3gbgyww1.png",
+        git: "https://github.com/piyush-jaiswal-projects/cloudinary-image-uploader",
+        live: "https://picupcloud.vercel.app/",
+        tech: ["HTML", "CSS", "Javascript", "ReactJS"],
+        description: "A simple web app to simplify the process of uploading images to your cloudinary account.",
+        standard: ["Interactive UI with custom preset and cloud values", "Can upload .jpg, .jpeg, .png, .svg files"],
+        standout: ["Easy Image uploading to cloudinary server", "Various status indicator during image upload process"],
+        achievements: []
     }
 ]
 
@@ -115,88 +129,34 @@ const techStacks = ["HTML", "CSS", "Javascript", "ReactJS", "TailwindCSS", "jQue
 
 const certificates = [{
     id: 1,
-    title: "Cert1",
-    desc: "Desc Hu Mai",
-    url: "https://drive.google.com/file/d/1GiZ9hj0cz6Cg9kgnOwBMUYmz9m9GNjB7/preview",
-    outcomes: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit."]
+    title: "Web Development Bootcamp",
+    desc: "Caertificate of Completion",
+    url: "http://res.cloudinary.com/deo80u7qs/image/upload/v1687525263/ogabjgomlyy7rsp0zxii.png",
+    outcomes: [""]
 },
 {
     id: 2,
-    title: "Cert2",
-    desc: "Desc Hu Mai",
-    outcomes: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit."]
+    title: "Flipkart GRID 4.0",
+    desc: "Certificate of Participation",
+    url: "http://res.cloudinary.com/deo80u7qs/image/upload/v1687525142/y4ki53t0nmn8i8bvpje6.png",
+    outcomes: [""]
     },
     {
         id: 3,
-        title: "Cert3",
-        desc: "Desc Hu Mai",
-        outcomes: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit."]
+        title: "Website Development",
+        desc: "Training Certificate",
+        url: "http://res.cloudinary.com/deo80u7qs/image/upload/v1687525410/ueydg7pws8ga3lcta4k5.png",
+        outcomes: [""]
     
     },
     {
         id: 4,
-        title: "Cert4",
-        desc: "Desc Hu Mai",
-        outcomes: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit."]
+        title: "Web Developer",
+        desc: "Certificate of Achievement",
+        url: "http://res.cloudinary.com/deo80u7qs/image/upload/v1687525809/ja21wzf5ls6xmk2e9tma.jpg",
+        outcomes: [""]
     
-    },
-    {
-        id: 5,
-        title: "Cert5",
-        desc: "Desc Hu Mai",
-        outcomes: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit."]
-    
-    },
-    {
-        id: 6,
-        title: "Cert6",
-        desc: "Desc Hu Mai",
-        outcomes: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit."]
-    
-    },
-    
-    {
-        id: 7,
-        title: "Cert7",
-        desc: "Desc Hu Mai",
-        outcomes: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit."]
-    
-    },
-    {
-        id: 8,
-        title: "Cert8",
-        desc: "Desc Hu Mai",
-        outcomes: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit."]
-    
-    },
-    {
-        id: 9,
-        title: "Cert9",
-        desc: "Desc Hu Mai",
-        outcomes: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit."]
-    
-    },
-    {
-        id: 10,
-        title: "Cert10",
-        desc: "Desc Hu Mai",
-        outcomes: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit."]
-    
-    },
-    {
-        id: 11,
-        title: "Cert11",
-        desc: "Desc Hu Mai",
-        outcomes: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit."]
-    
-    },
-    {
-        id: 12,
-        title: "Cert12",
-        desc: "Desc Hu Mai",
-        outcomes: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit."]
-    
-        }
+    }
  
 ]
 
