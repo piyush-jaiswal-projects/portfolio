@@ -12,7 +12,6 @@ export default function ProjectPage(props) {
             <Landing type="ProjectPage" title={project.title} desc={project.tagline} />
             <div className="bg-darkblue">
             <ProjectBody project={project} />
-            <Connect />
             <FeedbackForm title="Feedback" desc="It would mean world to me if you take out few seconds out
                 of your busy schedule to write a feedback for me 
                 so that I can improve."/>

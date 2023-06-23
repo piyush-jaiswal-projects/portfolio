@@ -24,10 +24,10 @@ module.exports = {
       },
       colors: {
         transparent: 'transparent',
-        darkblue: '#27374D',
-        darkblueTwo: '#526D82',
-        darkblueThree: '#27374E',
-        white: '#D9D9D9',
+        darkblue: '#001C30',
+        darkblueTwo: '#DAFFFB',
+        darkblueThree: '#64CCC5',
+        white: '#ffffff',
         lightblue: '#27374D',
         dullblue: '#27374D',
         grey: '#928E8E'

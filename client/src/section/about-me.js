@@ -1,22 +1,34 @@
-import { Heading, TextPara, Button } from "../components"
 
 export default function AboutMe() {
     return (
-        <div className="bg-darkblueTwo">
+        <div className="bg-white">
             
-            <div className="w-[70vw] mx-auto my-[2vw] pb-[4vw] py-[1vw] text-center">
-                <Heading text="About Me" /> 
+            <div className="w-[70vw] mx-auto py-[1vw] text-center">
+                <h1 className="text-darkblue text-[3vw]">About</h1>
+                <div className="w-[100px] h-[5px] bg-darkblue mx-auto"></div>
+            </div>
             
-                <TextPara align="left">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt massa 
-            eget turpis tincidunt hendrerit. Duis convallis hendrerit porttitor. Etiam finibus consectetur tempor. Suspendisse sed luctus tortor. Proin gravida viverra elit, quis luctus ex gravida non. Etiam id risus ante. Suspendisse eget eros ac velit pretium pharetra.
-                </TextPara>
-                
-                <Button text="Resume" actionType="redirect" url="/resume" />
-                <Button text="Know More" actionType="redirect" url="/about" />
-                
+            <div className="h-[40vh] flex justify-center items-center">
+            <div className="grid grid-cols-4 gap-5 text-center">
+                    <Card src="" text="Fast" desc="" />
+                    <Card src="" text="Fast" desc="" />
+                    <Card src="" text="Fast" desc="" />
+                    <Card src="" text="Fast" desc="" />
+            </div>
             </div>
 
+        </div>
+    )
+}
+
+function Card(props) {
+    return (
+        <div className="w-[300px] bg-[red]">
+            <div>
+                <img src={props.src} alt="" />
+            </div>
+            <h3 className="text-darkblueThree">{props.title}</h3>
+            <p>{props.desc}</p>
         </div>
     )
 }

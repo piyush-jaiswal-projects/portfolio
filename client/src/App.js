@@ -7,15 +7,10 @@ import { Navbar, Footer } from "./section";
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<ErrorBoundary><Home /></ErrorBoundary>} />
-          <Route path="projects" element={<ErrorBoundary><Project /></ErrorBoundary>} />
-          <Route path="about" element={<ErrorBoundary><About /></ErrorBoundary>} />
           <Route path="blog" element={<ErrorBoundary><Blog /></ErrorBoundary>} />
-          <Route path="experience" element={<ErrorBoundary><Experience /></ErrorBoundary>} />
-          <Route path="resume" element={<ErrorBoundary><Resume /></ErrorBoundary>} />
           <Route path="projects/:projectId" element={<ErrorBoundary><ProjectPage /></ErrorBoundary>} />
           <Route path="notes/:notesId" element={<ErrorBoundary><NotePage /></ErrorBoundary>} />
           <Route path="certificates/:certId" element={<ErrorBoundary><CertificatePage /></ErrorBoundary>} />

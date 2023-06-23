@@ -4,22 +4,25 @@ import { useState } from 'react';
 import { Logo, NavLink, MenuIcon, CloseIcon } from "../components";
 import { navLink } from "../data";
 import { useWindowWidth } from '../hooks'
+import { ScrollToDiv } from '../functions';
 
 function Navbar(props) {
     return (
-        <div className="flex h-[140px] md:h-auto justify-between bg-white">
-            <Logo />
-            {useWindowWidth() >= 768 ? <LargeNavbar /> : <SmallNavbar />}
+        <div className="flex bg-[#1a1a1a] py-5 w-[100vw] border-darkblueThree border-b-4 md:h-auto justify-between">
+            {useWindowWidth() >= 768 ? <LargeNavbar function={props.function} /> : <SmallNavbar function={props.function} />}
         </div>
     )
 }
 
-function LargeNavbar() {
+function LargeNavbar(props) {
     return (
-        <div className="inline-flex items-center">
-            {navLink.map((link) => {
-                return <NavLink name={link} key={link + "key"} />
-            })}
+        <div className="flex text-white items-center justify-around w-[50vw]">
+            <button onClick={() =>ScrollToDiv("HOME")} className=''>HOME</button>
+                <button onClick={() =>ScrollToDiv("ABOUT")} className=''>ABOUT</button>
+                <button onClick={() =>ScrollToDiv("PROJECTS")} className=''>PROJECTS</button>
+                <button onClick={() =>ScrollToDiv("BLOG")} className=''>BLOG</button>
+                <button onClick={() =>ScrollToDiv("EXPERIENCE")} className=''>EXPERIENCE</button>
+                <button onClick={() =>ScrollToDiv("CONTACT")} className=''>CONTACT</button>
         </div>
     )
 }
@@ -27,15 +30,15 @@ function LargeNavbar() {
 function Menu() {
     return (
         <div id="menu" className="animate-width text-white rounded-lg small-menu animate-custom-menu text-center shadow fixed z-[10] top-[10%] left-[0] border border-solid border-lightblue mx-auto items-center hidden">
-            {navLink.map((link) => {
-                return (
-                    <>
-                    <div className='px-[5px] py-[2px] text-left text-white inline-flex items-center' key={link + "key"}>
-                    <NavLink name={link} theme="light" />
+            
+                    <div className='px-[5px] py-[2px] text-left text-white inline-flex items-center'>
+                    <button onClick={() =>ScrollToDiv("HOME")} className=''>HOME</button>
+                <button onClick={() =>ScrollToDiv("ABOUT")} className=''>ABOUT</button>
+                <button onClick={() =>ScrollToDiv("PROJECTS")} className=''>PROJECTS</button>
+                <button onClick={() =>ScrollToDiv("BLOG")} className=''>BLOG</button>
+                <button onClick={() =>ScrollToDiv("EXPERIENCE")} className=''>EXPERIENCE</button>
+                <button onClick={() =>ScrollToDiv("CONTACT")} className=''>CONTACT</button>
                     </div>
-                    </>
-                )
-            })}
         </div>
     )
 }

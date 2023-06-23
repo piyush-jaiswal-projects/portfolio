@@ -3,9 +3,8 @@
 @tailwind utilities;
 
 body{
-    background-color: #27374D;
     overflow-x: hidden;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Pathway Extreme', sans-serif;
     cursor: default;
 }
 
@@ -147,3 +146,10 @@ body{
         height: auto;
     }
 }
+
+
+.custom-btn{
+    transition: background-color 0.5s ease;
+}
+
+  

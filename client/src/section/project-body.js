@@ -2,7 +2,7 @@ import { Label, CircularImage } from "../components"
 
 export default function ProjectBody(props) {
     return (
-        <div className="bg-darkblue flex w-[90vw] mx-auto flex-wrap justify-around">
+        <div className="bg-darkblue flex w-[90vw] mx-auto flex-wrap justify-center">
             <Section1 project={props.project} />
             <Section2 project={props.project} />
         </div>
