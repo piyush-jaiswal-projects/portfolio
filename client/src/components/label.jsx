@@ -1,5 +1,5 @@
 export default function Label(props) {
     return (
-        <label className="text-white">{props.text}</label>
+        <label className="text-darkblue">{props.text}</label>
     )
 }
