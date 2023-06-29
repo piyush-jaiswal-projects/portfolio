@@ -1,5 +1,4 @@
 import { skills } from "../data"
-import $ from 'jquery';
 
 export default function AboutMe() {
     return (
@@ -37,14 +36,6 @@ export default function AboutMe() {
                 })}
                 </div>
             </div>
-
-
-                
-                {/* <div className="flex shadow-lg border border-darkblueThree p-2 rounded-lg justify-around items-center text-right mx-auto md:w-[50%] my-4">
-                <img className="object-cover  border-darkblueThree mx-auto my-2 p-1 w-[90px] h-[90px] rounded-full"
-                    src="http://res.cloudinary.com/deo80u7qs/image/upload/v1687737062/hkk4nt5ioxp02ud3adqx.png" alt=" " />
-                    <p className="text-[grey]">Hi, I am a software developer based out of India. I specialize in developing robust and scalable web application and websites.</p>
-                </div> */}
            </div>
 
         </div>
