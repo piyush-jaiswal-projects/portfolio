@@ -5,7 +5,6 @@ export { default as Experience } from './experience'
 export { default as Blog } from './blog'
 export { default as Resume } from './resume'
 export { default as ProjectPage } from './projectpage'
-export { default as NotePage } from './notepage'
 export { default as CertificatePage } from './certificatepage'
 export { default as BlogPage } from './blogpage'
 

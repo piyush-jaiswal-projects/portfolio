@@ -130,6 +130,21 @@ body{
     transform: scale(1.2);
 }
 
+.type-animation{
+    animation: type 2s forwards;
+    animation-delay: 5s;
+    animation-timing-function: linear;
+}
+
+@keyframes type {
+    0%{
+        transform: scaleX(0);
+    }
+    100%{
+        transform: scaleX(1);
+    }
+}
+
 .animate-width{
     width: 0vw;
     height: 0vw;
@@ -152,9 +167,45 @@ body{
     }
 }
 
+.animate-skills-section{
+    transition: 0.3s linear;
+    animation: bottomUp 0.5s ease-in-out;
+}
+
+@keyframes bottomUp {
+    0%{
+        bottom: -100px;
+    }
+    100%{
+        bottom: 0px;
+    }
+}
+
 
 .custom-btn{
     transition: background-color 0.5s ease;
 }
 
+.smooth-card{
+    transition:  0.3s linear;
+}
+
+.smooth-card-height{
+    height: 20%;
+    transition: height 0.3s linear;
+    animation: height 0.3s forwards;
+}
+
+.animate-card-up{
+    animation: card 2s linear;
+}
+
+@keyframes height {
+    from{
+        height: 0%;
+    }
+    to{
+        height: 20%;
+    }
+}
   

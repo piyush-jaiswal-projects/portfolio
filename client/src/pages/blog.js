@@ -4,7 +4,7 @@ function Blog() {
     return (
         <>
             <Landing type="page" /> 
-            <BlogBody />
+            <BlogBody btn={false} />
         </>
     )
 }

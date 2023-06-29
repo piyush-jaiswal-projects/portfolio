@@ -1,5 +1,5 @@
 import { CircularImage } from "../components"
-import { techStacks } from "../data";
+import { skills } from "../data";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
@@ -16,13 +16,14 @@ export default function TechCarousel() {
                 centerMode={true}
                 showStatus={false}
                 showIndicators={false}
+                showThumbs={false}
                 centerSlidePercentage={30}
                 showArrows={false}
                 interval={2000}
                 infiniteLoop={true}>
-            {techStacks.map((tech) => {
+            {skills.map((tech) => {
                 return (
-                    <CircularImage name={tech} />
+                    <CircularImage key={tech.name} name={tech} />
                 )
             })}
         </Carousel>

@@ -1,6 +1,4 @@
-import Button from "./button";
-import { ScrollToDiv, SendMail } from "../functions";
-import Label from "./label";
+import { ScrollToDiv} from "../functions";
 
 function HomeHero() {
 

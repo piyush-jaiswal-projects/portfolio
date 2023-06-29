@@ -1,30 +1,28 @@
-import CircularLink from "./circular-link"
-import { git, link, rightArrow } from "../assets"
+import $ from 'jquery'
 
 export default function SmallCard(props) {
+    function onMouseOver(e) {
+        $("#"+e.target.id + "-div").removeClass("hidden");
+    }
+
+    function onMouseOut(e) {
+        $("#"+e.target.id + "-div").addClass("hidden");
+    }
+
+
+
     return (
-        
-        <div key={props.item.id} className="popup w-[80vw] sm:w-[70vw] md:w-[40vw] lg:w-[25vw] h-[50vw] sm:h-[45vw] md:h-[25vw] lg:h-[15vw] bg-lightblue shadow-xl mx-auto rounded-md my-3 md:my-4">
-            <a href={"/projects/" + props.item.id} >
+        <div onMouseOver={onMouseOver} onMouseLeave={onMouseOut} id={props.item.id} key={props.item.id} className="smooth-card overlayCont overflow-x:hidden popup w-[80vw] sm:w-[70vw] md:w-[40vw] lg:w-[25vw] h-[50vw] sm:h-[45vw] md:h-[25vw] lg:h-[15vw] bg-lightblue shadow-xl mx-auto rounded-md my-3 md:my-2">
+            <a href={"/projects/" + props.item.id} rel="noreferrer" target="_blank" >
+            <div onMouseOut={onMouseOut} id={props.item.id + "-div"} className='rounded-t-sm smooth-card-height  absolute  z-50 hidden w-[80vw] sm:w-[70vw] md:w-[40vw] lg:w-[25vw] bg-darkblueTwo text-center flex justify-center flex-col'>
+                <h2>{props.item.title}</h2>
+                <p className='text-[10px]'>click to view project</p>
+            </div>
+            <div className="overLay absolute hidden z-50 bg-darkblueTwo w-[25%] h-[50px]">Hi</div>
             <div className="bg-lightblue h-[50vw] sm:h-[45vw] md:h-[25vw] lg:h-[15vw] rounded-md">
-                <img className="rounded-md w-[80vw] sm:w-[70vw] md:w-[40vw] lg:w-[25vw] h-[50vw] sm:h-[45vw] md:h-[25vw] lg:h-[15vw]" src={props.item.previewImage} alt={props.item.title} />
+                <img id={props.item.id} className="rounded-md w-[80vw] sm:w-[70vw] md:w-[40vw] lg:w-[25vw] h-[50vw] sm:h-[45vw] md:h-[25vw] lg:h-[15vw]" src={props.item.previewImage} alt={props.item.title} />
                 </div>
                 </a>
-
-            {/* <div className="bg-darkblue flex items-center justify-between rounded-b-md h-[19.5vw] sm:h-[14.5vw] md:h-[9.7vw] lg:h-[4.8vw] px-3 md:py-5">
-                
-                <div className="flex items-center justify-center">
-                    <CircularLink name="git" image={git} link={props.item.git} theme="dark"/>
-                    {props.item.live === "none" || "" ? "" : <CircularLink name="live" image={link} link={props.item.live} theme="dark"/>}
-                </div>
-
-                <div className="px-3">
-                 <a href={"/projects/" + props.item.id} >
-                 <img className="m-0 p-0 w-[8vw] sm:w-[6vw] md:w-[4vw] lg:w-[2vw] invert-[0.75]" src={rightArrow} alt={props.item.name} />
-                </a>
-                </div>
-
-            </div> */}
         </div>
     )
 }

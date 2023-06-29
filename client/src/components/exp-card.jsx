@@ -1,14 +1,14 @@
-import Label from "./label";
+
 import { link } from "../assets";
 
 export default function ExpCard(props) {
     const exp = props.exp;
 
     return (
-        <div key={exp.id} className="box-shadow border lg:border-none border-0.1 border-grey rounded-md flex flex-wrap items-center w-[90vw] lg:w-[55vw] mx-auto my-10 p-2">
+        <div key={exp.id} className="smooth-card hover:scale-[1.1] box-shadow border lg:border-none border-0.1 border-grey rounded-md flex flex-wrap items-center w-[90vw] lg:w-[55vw] mx-auto my-10 p-2">
             
             <div className=" lg:w-[30%] px-5">
-                <Label text={exp.duration} />
+                <label className="text-darkblue">{exp.duration}</label>
             </div>
 
             <div className=" lg:w-[70%] p-4">

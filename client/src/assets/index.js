@@ -7,6 +7,7 @@ export { default as git } from './git.svg';
 export { default as rightArrow } from './arrow-right.svg';
 export { default as link } from './link.svg';
 export { default as ProfilePic } from './pic1.jpg';
+export { default as Star } from './star.svg';
 
 
 
