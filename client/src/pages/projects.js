@@ -4,7 +4,7 @@ function Project() {
     return (
         <>
             <Landing type="page" />
-            <ProjectGrid />
+            <ProjectGrid type="page"/>
             <Connect />
     </>
     );

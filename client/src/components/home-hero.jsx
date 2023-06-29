@@ -1,38 +1,23 @@
-import Button from "./button";
-import { ScrollToDiv, SendMail } from "../functions";
-import Label from "./label";
+import { ScrollToDiv} from "../functions";
 
 function HomeHero() {
 
     return (
-        <div className="h-[65vh] sm:h-[75vh] flex items-start sm:items-center bg-white">
+        <div className="h-[100%] flex items-center justify-center bg-darkblue">
             
-            <div className="text-center md:text-left w-[90vw] sm:w-[80vw] md:w-[60vw] lg:w-[45vw] h-[50%] m-auto md:ml-[10vw] mt-[10vw]">
-                
-                <div className="cursor-default animate-hero-text text-lightblue text-[10vw] sm:text-[7vw] md:text-[4vw] lg:text-[3vw] font-bold leading-tight">
-                    <h2>Piyush Jaiswal</h2>
-                    <h2 className="">I build things for web</h2>
+            <div className="text-center mx-auto align-middle w-[90vw]">
+                <div className="cursor-default text-center animate-hero-text text-white text-[10vw] sm:text-[7vw] md:text-[4vw] lg:text-[3vw] font-bold leading-tight">
+                    <h2>Hello, I'm <label className="text-[#FF2171] font-[1000]">Piyush Jaiswal</label></h2>
+                    <h2 className="">I'm a full stack web developer</h2>
                 </div>
 
-                <div className="animate-hero-btn p-0  mt-[3vw] md:mt-[1.5vw]">
-                    <Button text="Hire Me" function={()=>SendMail("Hiring Inquiry", "")} />
-                    <Button text="Connect" function={() => {
-                        ScrollToDiv("Connect");
-                        document.getElementById("Connect").focus();
-                    } } />
+                <div className="flex justify-center">
+                <div className="animate-hero-btn mt-[3vw] md:mt-[1.5vw]">
+                    <button onClick={()=>ScrollToDiv("Navbar")} className="custom-btn cursor-pointer w-[100%] my-1 mx-2 hover:bg-darkblueThree text-white border border-solid bolder-[2px] border-white p-[10px] text-[1.3rem]">View my work</button>
+                </div>
                 </div>
 
-                <div>
-                    <p className="animate-hero-desc text-dullblue text-[5vw] sm:text-[3.5vw] md:text-[2vw] lg:text-[1.5vw] leading-tight mt-[3%]">
-                        Hi, I am a software developer based out of India.
-                        I specialize in developing robust and scalable web application and websites.
-                    </p>
-                </div>
             </div>
-
-            {/* <div className="w-[55%] h-[80%] bg-lightblue">
-                
-            </div> */}
         </div>
     )
 }

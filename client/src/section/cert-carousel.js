@@ -7,7 +7,7 @@ import { Heading, CertificateCard } from '../components'
 
 export default function TechCarousel() {
     return (
-        <div className="bg-darkblueThree py-2 align-middle">
+        <div className="border border-t-0 border-darkblue py-2 align-middle">
             <Heading text="Certifications" />
             <Carousel
                 transitionTime={1000}
@@ -22,7 +22,7 @@ export default function TechCarousel() {
 
                 {certificates.map((cert) => {
                 return (
-                    <CertificateCard id={cert.id} url={cert.url} title={cert.title} />
+                    <CertificateCard id={cert.id} title={cert.title} link={cert.url} />
                 )
                 })}
                 
