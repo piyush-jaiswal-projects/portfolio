@@ -12,7 +12,7 @@ function Navlink(props) {
             link = "/about"
             break;
         case "BLOG":
-            link = "/blog"
+            link = "https://dev.to/piyushjaiswal1610"
             break;
         case "EXPERIENCE":
             link = "/experience"

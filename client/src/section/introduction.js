@@ -10,8 +10,7 @@ export default function Introduction() {
             <div className="md:w-[50vw] md:mx-auto inline-flex items-center flex-wrap">
                 <div>
                     <TextPara >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt massa eget turpis tincidunt hendrerit. Duis convallis hendrerit porttitor. Etiam finibus consectetur tempor. Suspendisse sed luctus tortor. Proin gravida viverra elit, quis luctus ex gravida non.
-                    </TextPara>
+                    Hi, I am a software developer based out of India. I am proficient in Full Stack Web Developmet. I generally work on MERN stack. And trying to learn new stuff as well...</TextPara>
                 </div>
                 <div className="mx-auto">
                     <Button text="Know More" actionType="function" function={()=>ScrollToDiv("Story")} />

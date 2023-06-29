@@ -12,7 +12,7 @@ function About() {
         <>
             <Landing type="page" />
             <div className="bg-darkblue">
-            <Introduction />
+            {/* <Introduction /> */}
             <TechCarousel />
             <Story />
             <CertCarousel />

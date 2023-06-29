@@ -1,6 +1,7 @@
 import $ from 'jquery'
 
 export default function SmallCard(props) {
+
     function onMouseOver(e) {
         $("#"+e.target.id + "-div").removeClass("hidden");
     }
@@ -8,7 +9,6 @@ export default function SmallCard(props) {
     function onMouseOut(e) {
         $("#"+e.target.id + "-div").addClass("hidden");
     }
-
 
 
     return (
@@ -23,6 +23,7 @@ export default function SmallCard(props) {
                 <img id={props.item.id} className="rounded-md w-[80vw] sm:w-[70vw] md:w-[40vw] lg:w-[25vw] h-[50vw] sm:h-[45vw] md:h-[25vw] lg:h-[15vw]" src={props.item.previewImage} alt={props.item.title} />
                 </div>
                 </a>
+
         </div>
     )
 }

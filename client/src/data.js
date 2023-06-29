@@ -101,7 +101,7 @@ const projects = [
         tagline: "A simple website to showcase and sell products",
         previewImage: "https://res.cloudinary.com/deo80u7qs/image/upload/v1687527266/hhfqxjn3esc3avi3qfdp.png",
         git: "https://github.com/piyush-jaiswal-projects/tech-startup-website",
-        live: "https://tech-startup-website-1n82xak5t-piyush-jaiswal-projects.vercel.app/",
+        live: "https://tech-startup-website.vercel.app/",
         tech: ["HTML", "CSS", "Javascript", "ReactJS"],
         description: "This website implements the frontend for a tech startup to showcase their sproducts and services. It also has a small ecommerce functionality for their customers. On top of that, it also has blog section",
         standard: ["Authentication - Login and Signup", "Smooth user experience", "Multi route single page web app"],
@@ -121,6 +121,20 @@ const projects = [
         standard: ["User signup and login", "Addition, deletion, updation of notes"],
         standout: ["Live data syncing using stream", "CRUD operations on MongoDB Cloud Database"],
         achievements: []
+    },
+    {
+        id: 6,
+        tag: "Frontend",
+        title: "Cloudinary Image Uploader",
+        tagline: "Simplify the way you upload images to cloudinary",
+        previewImage: "http://res.cloudinary.com/deo80u7qs/image/upload/v1687527164/fcmvikxkngoy3gbgyww1.png",
+        git: "https://github.com/piyush-jaiswal-projects/cloudinary-image-uploader",
+        live: "https://picupcloud.vercel.app/",
+        tech: ["HTML", "CSS", "Javascript", "ReactJS"],
+        description: "A simple web app to simplify the process of uploading images to your cloudinary account.",
+        standard: ["Interactive UI with custom preset and cloud values", "Can upload .jpg, .jpeg, .png, .svg files"],
+        standout: ["Easy Image uploading to cloudinary server", "Various status indicator during image upload process"],
+        achievements: []
     }
 ]
 
@@ -137,6 +151,7 @@ const skills = [
     { name: "MongoDB", rating: 4 },
     { name: "Docker", rating: 3 },
 ]
+
 
 const certificates = [
     {
@@ -163,7 +178,6 @@ const certificates = [
         desc: "Certificate of Participation",
         url: "https://res.cloudinary.com/deo80u7qs/image/upload/v1687525142/y4ki53t0nmn8i8bvpje6.png"
     }
-    
 ]
 
 const experiences = [
