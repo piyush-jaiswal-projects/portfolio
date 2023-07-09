@@ -7,9 +7,14 @@ export default function BlogPage() {
     const id = useParams().blogId;
     const data = blogs;
     const blog = data.filter((obj) => obj.id === Number(id))[0]
-    console.log(blog);
+    
     return (
         <>
+            <div className="bg-darkblue flex justify-end px-4 py-4">
+                <a href="/">
+                    <label className="text-darkblueThree cursor-pointer mx-2">HOME</label>
+                </a>
+            </div>
             <div className="overflow-hidden mx-auto w-[90vw] md:w-[60vw] border text-center rounded-lg p-2 my-4">
                 <img className="my-2 mb-4" src={blog.cover_image} alt="" />
             <h1 className="text-[5vw] md:text-[3vw] lg:text-[2vw] font-bold">{blog.title}</h1>

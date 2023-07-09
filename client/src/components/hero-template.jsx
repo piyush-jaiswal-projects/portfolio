@@ -1,4 +1,5 @@
 import { heroText } from "../data";
+import { logo } from "../assets";
 
 function HeroTemplate(props) {
     var page, data;
@@ -21,12 +22,25 @@ function HeroTemplate(props) {
     }
     
     return (
-        <div className="h-auto md:h-[50vw] lg:h-[35vw] flex items-center shadow bg-darkblue">
-            <div className="h-[30%] w-[90vw] md:w-[55vw] mx-auto text-center md:text-left md:ml-[8%] mb-[10vw]">
-            <h2 className="animate-hero-text text-darkblueThree text-[8vw] sm:text-[6.5vw] md:text-[5vw] lg:text-[4vw] font-bold">{data[0].title}</h2>
-            <h3 className="animate-hero-desc text-darkblueTwo text-[6vw] sm:text-[5vw] md:text-[4vw] lg:text-[3vw] leading-[2.3rem]">{data[0].description}</h3>
+        <>
+            
+            <div className="bg-darkblue flex justify-end px-4 py-4">
+                <a href="/">
+                    <label className="text-darkblueThree cursor-pointer mx-2">HOME</label>
+                </a>
             </div>
-        </div>
+            
+            <div className="h-auto md:h-[50vw] lg:h-[35vw] flex items-center shadow bg-darkblue">
+                <div className="h-[30%] w-[90vw] md:w-[55vw] mx-auto text-center md:text-left md:ml-[8%] mb-[10vw]">
+                    <h2 className="animate-hero-text text-darkblueThree text-[8vw] sm:text-[6.5vw] md:text-[5vw] lg:text-[4vw] font-bold">
+                        {data[0].title}
+                    </h2>
+                    <h3 className="animate-hero-desc text-darkblueTwo text-[6vw] sm:text-[5vw] md:text-[4vw] lg:text-[3vw] leading-[2.3rem]">
+                        {data[0].description}
+                    </h3>
+                </div>
+            </div>
+        </>
     )
 }
 

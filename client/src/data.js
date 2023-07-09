@@ -39,6 +39,20 @@ const heroText = [
 
 const projects = [
     {
+        id: 7,
+        tag: "FULLSTACK",
+        title: "Ecommerce Website",
+        tagline: "1610 Collections - A website to sell your products online",
+        previewImage: "http://res.cloudinary.com/deo80u7qs/image/upload/v1688942384/t19ymcgx0kebjsx60w3d.png",
+        git: "https://github.com/piyush-jaiswal-projects/ecommerce",
+        live: "https://1610-ecommerce.vercel.app/",
+        tech: ["ReactJS", "CSS", "Javascript", "HTML", "TailwindCSS", "Redux"],
+        description: "1610 Collections, is an ecommerce website to sell your products online. It has a product listing page, product details page, user cart, wishlist, and payment gateway.",
+        standard: ["Product Listing Page", "Product details page", "User authentication", "User cart and wishlist"],
+        standout: ["Razorpay Payment Gateway", "Product filters", "OTP Validation", "Pagination"],
+        achievements: ["Integrated third party payment gateway", "Learn and Implemented Redux for global state management"]
+    },
+    {
         id: 6,
         tag: "FRONTEND",
         title: "PicUpCloud",
@@ -121,20 +135,6 @@ const projects = [
         standard: ["User signup and login", "Addition, deletion, updation of notes"],
         standout: ["Live data syncing using stream", "CRUD operations on MongoDB Cloud Database"],
         achievements: []
-    },
-    {
-        id: 6,
-        tag: "Frontend",
-        title: "Cloudinary Image Uploader",
-        tagline: "Simplify the way you upload images to cloudinary",
-        previewImage: "http://res.cloudinary.com/deo80u7qs/image/upload/v1687527164/fcmvikxkngoy3gbgyww1.png",
-        git: "https://github.com/piyush-jaiswal-projects/cloudinary-image-uploader",
-        live: "https://picupcloud.vercel.app/",
-        tech: ["HTML", "CSS", "Javascript", "ReactJS"],
-        description: "A simple web app to simplify the process of uploading images to your cloudinary account.",
-        standard: ["Interactive UI with custom preset and cloud values", "Can upload .jpg, .jpeg, .png, .svg files"],
-        standout: ["Easy Image uploading to cloudinary server", "Various status indicator during image upload process"],
-        achievements: []
     }
 ]
 
@@ -146,7 +146,7 @@ const skills = [
     { name: "TailwindCSS", rating: 4 },
     { name: "Redux", rating: 4 },
     { name: "jQuery", rating: 3 },
-    { name: "Node", rating: 4 },
+    { name: "NodeJS", rating: 4 },
     { name: "ExpressJS", rating: 4 },
     { name: "MongoDB", rating: 4 },
     { name: "Docker", rating: 3 },
@@ -204,7 +204,7 @@ const experiences = [
         duration: "Nov, 2021 - October, 2022",
         org: "Alumni Affairs Cell, UIET, PU",
         position: "Web Developer",
-        desc: "Responsible for up-gradation, responsiveness and maintenance of official website. Worked on frontend and built modal boxes for different occasions and seminars.",
+        desc: "Responsible for up-gradation, responsiveness and maintenance of official website.",
         tech: ["React", "HTML", "CSS", "Javascript"]
     },
     {
