@@ -46,7 +46,7 @@ const projects = [
         previewImage: "http://res.cloudinary.com/deo80u7qs/image/upload/v1688942384/t19ymcgx0kebjsx60w3d.png",
         git: "https://github.com/piyush-jaiswal-projects/ecommerce",
         live: "https://1610-ecommerce.vercel.app/",
-        tech: ["ReactJS", "CSS", "Javascript", "HTML", "TailwindCSS", "Redux"],
+        tech: ["ReactJS", "CSS", "Javascript", "HTML", "TailwindCSS", "Redux", "Node", "ExpressJS", "MongoDB"],
         description: "1610 Collections, is an ecommerce website to sell your products online. It has a product listing page, product details page, user cart, wishlist, and payment gateway.",
         standard: ["Product Listing Page", "Product details page", "User authentication", "User cart and wishlist"],
         standout: ["Razorpay Payment Gateway", "Product filters", "OTP Validation", "Pagination"],
