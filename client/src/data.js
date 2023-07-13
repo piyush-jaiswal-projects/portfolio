@@ -49,7 +49,7 @@ const projects = [
         tech: ["ReactJS", "CSS", "Javascript", "HTML", "TailwindCSS", "Redux", "Node", "ExpressJS", "MongoDB"],
         description: "1610 Collections, is an ecommerce website to sell your products online. It has a product listing page, product details page, user cart, wishlist, and payment gateway.",
         standard: ["Product Listing Page", "Product details page", "User authentication", "User cart and wishlist"],
-        standout: ["Razorpay Payment Gateway", "Product filters", "OTP Validation", "Pagination"],
+        standout: ["Razorpay Payment Gateway", "Product filters", "Pagination"],
         achievements: ["Integrated third party payment gateway", "Learn and Implemented Redux for global state management"]
     },
     {
