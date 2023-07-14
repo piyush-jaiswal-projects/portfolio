@@ -13,10 +13,8 @@ body{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.animate-custom-menu{
-    background-color: #27374D;
-    opacity: 1;
-    animation: popup 0.5s ease;
+.custom-menu{
+    transition: height linear 0.2s;
 }
 
 .popup{

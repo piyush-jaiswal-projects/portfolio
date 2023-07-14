@@ -28,15 +28,15 @@ function LargeNavbar(props) {
 
 function Menu() {
     return (
-        <div id="menu" className="animate-width text-white rounded-lg small-menu animate-custom-menu text-center shadow fixed z-[10] top-[10%] left-[0] border border-solid border-lightblue mx-auto items-center hidden">
+        <div id="menu" className="w-[100%] h-[0px] custom-menu text-white rounded-lg text-center mx-auto">
             
-                    <div className='px-[5px] py-[2px] text-left text-white inline-flex items-center flex-wrap'>
-                    <button onClick={() =>ScrollToDiv("HOME")} className='mx-1'>HOME</button>
-                <button onClick={() =>ScrollToDiv("ABOUT")} className='mx-1'>ABOUT</button>
-                <button onClick={() =>ScrollToDiv("PROJECTS")} className='mx-1'>PROJECTS</button>
-                <button onClick={() =>ScrollToDiv("BLOG")} className='mx-1'>BLOG</button>
-                <button onClick={() =>ScrollToDiv("EXPERIENCE")} className='mx-1'>EXPERIENCE</button>
-                <button onClick={() =>ScrollToDiv("CONTACT")} className='mx-1'>CONTACT</button>
+                    <div className='px-[5px] py-[2px] text-left text-white'>
+                    <button onClick={() =>ScrollToDiv("HOME")} className='mx-1 w-[100%] text-left my-2'>HOME</button>
+                <button onClick={() =>ScrollToDiv("ABOUT")} className='mx-1 w-[100%] text-left my-2'>ABOUT</button>
+                <button onClick={() =>ScrollToDiv("PROJECTS")} className='mx-1 w-[100%] text-left my-2'>PROJECTS</button>
+                <button onClick={() =>ScrollToDiv("BLOG")} className='mx-1 w-[100%] text-left my-2'>BLOG</button>
+                <button onClick={() =>ScrollToDiv("EXPERIENCE")} className='mx-1 w-[100%] text-left my-2'>EXPERIENCE</button>
+                <button onClick={() =>ScrollToDiv("CONTACT")} className='mx-1 w-[100%] text-left my-2'>CONTACT</button>
                     </div>
         </div>
     )
@@ -48,12 +48,14 @@ function SmallNavbar() {
 
     function toggleIcon() {
         if (state === "menu") {
-            $("#menu").removeClass("hidden");
+            $("#menu").removeClass("h-[0px]");
+            $("#menu").addClass("h-[250px]");
             setIcon(() => <CloseIcon />);
             setState(() => "close")
         }
         else {
-            $("#menu").addClass("hidden");
+            $("#menu").addClass("h-[0px]");
+            $("#menu").removeClass("h-[250px]");
             setIcon(() => <MenuIcon />);
             setState(() => "menu")
         }
