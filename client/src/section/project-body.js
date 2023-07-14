@@ -78,7 +78,7 @@ function Section2(props) {
             <div className="my-4 lg:w-[40vw]">
             <label className="text-[#808080]">Tech Used</label>
                 <br />
-                <div>
+                <div className="my-2">
                 {props.project.tech.map((item) => {
                     return <CircularImage name={item} label="none"/>
                 })}

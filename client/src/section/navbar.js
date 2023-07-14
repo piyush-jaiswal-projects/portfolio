@@ -15,7 +15,7 @@ function Navbar(props) {
 
 function LargeNavbar(props) {
     return (
-        <div className="flex text-white items-center justify-around h-[50px] w-[50vw] p-0">
+        <div className="flex text-white items-center justify-around h-[50px] w-[60vw] p-0">
             <button onClick={() =>ScrollToDiv("HOME")} className='hover:bg-darkblueThree custom-btn hover:text-darkblue h-[50px] w-[150px] hover:font-bold'>HOME</button>
                 <button onClick={() =>ScrollToDiv("ABOUT")} className='hover:bg-darkblueThree custom-btn hover:text-darkblue h-[50px] w-[150px] hover:font-bold'>ABOUT</button>
                 <button onClick={() =>ScrollToDiv("PROJECTS")} className='hover:bg-darkblueThree custom-btn hover:text-darkblue h-[50px] w-[150px] hover:font-bold'>PROJECTS</button>
