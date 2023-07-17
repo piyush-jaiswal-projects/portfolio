@@ -170,6 +170,7 @@ const skills = [
     { name: "HTML", rating: 4 },
     { name: "CSS", rating: 4 },
     { name: "Javascript", rating: 4.5 },
+    { name: "Typescript", rating: 3 },
     { name: "ReactJS", rating: 4.5 },
     { name: "TailwindCSS", rating: 4 },
     { name: "Redux", rating: 4 },

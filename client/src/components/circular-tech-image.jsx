@@ -13,6 +13,9 @@ export default function CircularImage(props) {
             case "Javascript":
                 img = "http://res.cloudinary.com/deo80u7qs/image/upload/v1687527804/tbadz0dmlm3oc7vubzsk.svg";
             break;
+            case "Typescript":
+                img = "http://res.cloudinary.com/deo80u7qs/image/upload/v1689626645/xrcawamtzhe2rxlk8zwh.png";
+            break;
             case "ReactJS":
                 img = "http://res.cloudinary.com/deo80u7qs/image/upload/v1687527821/aq9juiw1vwokrlnucnsu.svg";
             break;
