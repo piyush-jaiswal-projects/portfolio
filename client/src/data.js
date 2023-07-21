@@ -95,6 +95,20 @@ const projects = [
         achievements: []
     },
     {
+    id: 10,
+    tag: "FULLSTACK",
+    title: "User Authentication System",
+    tagline: "A simple user authentication system built with NextJS",
+    previewImage: "https://res.cloudinary.com/deo80u7qs/image/upload/v1687527408/u6u1dkwdxpyoebwfqdyv.png",
+    git: "https://github.com/piyush-jaiswal-projects/arduino-nodejs-react-realtime-dashboard",
+    live: "https://dreamy-dodol-f0c20f.netlify.app/",
+    tech: ["Typescript", "NextJS", "MongoDB", "TailwindCSS"],
+    description: "This is a simple user authentication system built using NextJS framework.",
+    standard: ["User login", "User signup", "Email verification using mailtrap"],
+    standout: [],
+    achievements: ["Built project using Typescript", "Implemented NextJS"]
+},
+    {
         id:3,
         tag: "FULLSTACK",
         title: "Arcware Streaming Project",
@@ -172,6 +186,7 @@ const skills = [
     { name: "Javascript", rating: 4.5 },
     { name: "Typescript", rating: 3 },
     { name: "ReactJS", rating: 4.5 },
+    {name: "NextJS", rating: 4},
     { name: "TailwindCSS", rating: 4 },
     { name: "Redux", rating: 4 },
     { name: "jQuery", rating: 3 },
