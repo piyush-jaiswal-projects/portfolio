@@ -11,7 +11,7 @@ export default function ProjectBody(props) {
 
 function Section1(props) {
     return (
-        <div className="lg:w-[35vw] flex flex-wrap my-8 ">
+        <div className="lg:w-[35vw] flex flex-col flex-wrap my-8 ">
             
             <div className="my-4 block w-[100%]">
                 <Label text="Description" />

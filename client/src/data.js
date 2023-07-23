@@ -53,6 +53,20 @@ const projects = [
         achievements: ["Integrated third party payment gateway", "Learn and Implemented Redux for global state management"]
     },
     {
+        id: 11,
+        tag: "FRONTEND",
+        title: "User Dashboard",
+        tagline: "Dynamic customer dashboard",
+        previewImage: "http://res.cloudinary.com/deo80u7qs/image/upload/v1690116067/xzqazicl5i5gl2y2gvvv.png",
+        git: "https://github.com/piyush-jaiswal-projects/user-dashboard",
+        live: "https://unstop-dashboard.vercel.app/",
+        tech: ["ReactJS", "CSS", "Javascript", "HTML", "Typescript", "TailwindCSS"],
+        description: "Dynamic customer dashboard with the ability to switch between various views and handle form interactions, all powered by React.",
+        standard: ["Switching between multiple views", "Form validation and handling", "Fully responsive`"],
+        standout: [],
+        achievements: []
+    },
+    {
         id: 6,
         tag: "FRONTEND",
         title: "PicUpCloud",
