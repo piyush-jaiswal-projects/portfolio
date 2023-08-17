@@ -29,7 +29,7 @@ export default function AboutMe() {
                 <div className="flex justify-center md:justify-star items-center flex-wrap">
                 {skills.map((skill) => {
                     return (
-                        <div className="delay-75 flex hover:bg-darkblue hover:text-darkblueTwo justify-around items-center w-[110px] border border-darkblueThree text-darkblue m-2 rounded-lg">
+                        <div className="delay-75 flex hover:bg-darkblue hover:text-darkblueTwo justify-around items-center w-[auto] border border-darkblueThree text-darkblue m-2 rounded-lg">
                             <label className="text-left">{skill.name}</label>
                         </div>
                     )
