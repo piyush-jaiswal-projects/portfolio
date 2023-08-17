@@ -19,7 +19,7 @@ export default function AboutMe() {
                     <Card src="http://res.cloudinary.com/deo80u7qs/image/upload/v1687950695/slmp2xu8i1s3p9cuyres.svg"
                         text="Scalable" desc="Can handle large traffic without decrease in performance" />
                     <Card src="http://res.cloudinary.com/deo80u7qs/image/upload/v1687951241/p8pofguhalze35ovi5qw.svg"
-                        text="Tested" desc="Intensive testing before deployment of product" />
+                        text="Tested" desc="Proper testing before deployment of product" />
             </div>
             </div>
 

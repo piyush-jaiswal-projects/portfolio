@@ -201,6 +201,8 @@ const skills = [
     { name: "Typescript", rating: 3 },
     { name: "ReactJS", rating: 4.5 },
     {name: "NextJS", rating: 4},
+    {name: "Unit testing", rating: 4},
+    {name: "React testing library", rating: 4},
     { name: "TailwindCSS", rating: 4 },
     { name: "Redux", rating: 4 },
     { name: "jQuery", rating: 3 },
@@ -208,6 +210,8 @@ const skills = [
     { name: "ExpressJS", rating: 4 },
     { name: "MongoDB", rating: 4 },
     { name: "Docker", rating: 3 },
+    { name: "Git", rating: 3 },
+    { name: "AWS", rating: 3 },
 ]
 
 
