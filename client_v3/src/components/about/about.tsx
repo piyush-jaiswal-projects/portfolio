@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function About() {
     return (
-        <div className='my-[10px]'>
+        <div className='my-[10px] w-[95%] md:w-[90%] mx-auto translate-right'>
             <h1 className='text-[2rem]'>About</h1>
-            <p className='text-red-500'>
+            <p className=''>
                 Hey there 👋🏼
                 <br />
                 vLorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas imperdiet nec leo at condimentum. Vivamus faucibus volutpat dolor. Nunc commodo aliquet urna. Suspendisse dapibus diam mollis, tristique ex eu, vestibulum velit. Cras quis finibus odio, eget condimentum nunc. Nunc ut purus quis purus venenatis tempor volutpat sit amet arcu.

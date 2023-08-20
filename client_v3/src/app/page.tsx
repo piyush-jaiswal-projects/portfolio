@@ -1,4 +1,5 @@
 import About from "@/components/about/about";
+import Projects from "@/components/projects/projects";
 import Sidebar from "@/components/sidebar/sidebar";
 import Skills from "@/components/skils/skills";
 import ThemeButton from "@/components/themebutton/theme-button";
@@ -12,6 +13,7 @@ export default function Home() {
           <ThemeButton />
           <About />
           <Skills />
+          <Projects />
         </div>
       </div>
     </div>

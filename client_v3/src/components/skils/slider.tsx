@@ -1,5 +1,5 @@
-"use client";
-import React, { useState, useEffect } from "react";
+"use client"
+import React from "react";
 import Box from "@mui/material/Box";
 import Slider from "@mui/material/Slider";
 import { styled } from "@mui/material/styles";
@@ -9,29 +9,6 @@ export default function SkillSlider(props: {
   color: string;
   label: string;
 }) {
-  
-  const [animatedValue, setAnimatedValue] = useState(0);
-  const finalValue = props.length; // Set your desired final value
-  const animationDuration = 500; // Duration of the animation in milliseconds
-
-
-  useEffect(() => {
-    const startTime = Date.now();
-    const animationInterval = setInterval(() => {
-      const elapsedTime = Date.now() - startTime;
-      const progress = Math.min(elapsedTime / animationDuration, 1);
-      const newValue = Math.round(progress * finalValue);
-      setAnimatedValue(newValue);
-
-      if (progress === 1) {
-        clearInterval(animationInterval);
-      }
-    }, 16); // Update roughly every frame (60 fps)
-
-    return () => {
-      clearInterval(animationInterval);
-    };
-  }, [finalValue]);
 
   const CustomSlider = styled(Slider)(({ theme }) => ({
     color: props.color, // Change this to your desired color
@@ -43,7 +20,7 @@ export default function SkillSlider(props: {
         <label>{props.label}</label>
         <CustomSlider
           className="leading-tight"
-          value={animatedValue}
+          value={props.length}
           aria-label="Default"
         />
       </Box>
