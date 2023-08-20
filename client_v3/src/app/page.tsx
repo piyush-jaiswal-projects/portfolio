@@ -1,4 +1,6 @@
 import About from "@/components/about/about";
+import Education from "@/components/education/education";
+import Experience from "@/components/experience/experience";
 import Projects from "@/components/projects/projects";
 import Sidebar from "@/components/sidebar/sidebar";
 import Skills from "@/components/skils/skills";
@@ -14,6 +16,8 @@ export default function Home() {
           <About />
           <Skills />
           <Projects />
+          <Experience />
+          <Education />
         </div>
       </div>
     </div>

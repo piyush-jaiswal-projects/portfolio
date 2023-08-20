@@ -1,6 +1,7 @@
 import React from "react";
 import { projects } from "@/dumyData";
 import ProjectCard from "./project-card";
+import Link from "next/link";
 
 export default function Projects() {
   const projectsSliced = projects.slice(0, 6);
@@ -16,6 +17,14 @@ export default function Projects() {
           return <ProjectCard data={item} key={index} />;
         })}
       </section>
+      <div className="text-center">
+        <Link
+          href="/projects"
+          className="border border-secondary p-2 rounded-lg"
+        >
+          See All Projects
+        </Link>
+      </div>
     </div>
   );
 }
