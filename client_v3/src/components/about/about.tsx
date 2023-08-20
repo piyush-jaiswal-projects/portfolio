@@ -5,6 +5,8 @@ export default function About() {
         <div className='my-[10px]'>
             <h1 className='text-[2rem]'>About</h1>
             <p className='text-red-500'>
+                Hey there 👋🏼
+                <br />
                 vLorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas imperdiet nec leo at condimentum. Vivamus faucibus volutpat dolor. Nunc commodo aliquet urna. Suspendisse dapibus diam mollis, tristique ex eu, vestibulum velit. Cras quis finibus odio, eget condimentum nunc. Nunc ut purus quis purus venenatis tempor volutpat sit amet arcu.
                 <br />
                 <br />

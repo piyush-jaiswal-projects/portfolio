@@ -9,8 +9,8 @@ export default function Identity() {
         <Image src="" alt="" />
           </div>
           <br />
-      <h1 className="text-[1.8rem]">Piyush Jaiswal</h1>
-      <p className="">Full Stack Developer</p>
+      <h1 className="text-[1.8rem] font-semibold">Piyush Jaiswal</h1>
+      <p className="font-semibold">Full Stack Developer</p>
       <section>
         <span title="Github">
           <Link href="">
