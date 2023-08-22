@@ -1,7 +1,7 @@
-"use client"
+"use client";
 import React from "react";
-import Box from "@mui/material/Box";
-import Slider from "@mui/material/Slider";
+import { Box } from "@mui/material";
+import { Slider } from "@mui/material";
 import { styled } from "@mui/material/styles";
 
 export default function SkillSlider(props: {
@@ -9,7 +9,6 @@ export default function SkillSlider(props: {
   color: string;
   label: string;
 }) {
-
   const CustomSlider = styled(Slider)(({ theme }) => ({
     color: props.color, // Change this to your desired color
   }));

@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import Stack from "@mui/material/Stack";
+import { Stack } from "@mui/material";
 import { Slider, Card } from "@mui/material";
 import { styled } from "@mui/material/styles";
 
