@@ -3,7 +3,7 @@
 import React from "react";
 import { Stack } from "@mui/material";
 import { Slider, Card } from "@mui/material";
-import { styled } from "@mui/material/styles";
+import { styled } from "@mui/material";
 
 export default function Experience() {
   const CustomSlider = styled(Slider)(({ theme }) => ({
